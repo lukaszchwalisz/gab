@@ -1,113 +1,167 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import Image from "next/image";
+
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
+
+    <main className="container bg-slate-50 flex h-max max-w-full flex-col items-center justify-between p-4">
+    
+    <Image
+              src="/xlcx.webp"
+              alt="My Logo"
+              className="mb-4"
+              width={250}
+              height={250}
               priority
             />
-          </a>
+
+    <h2 className="m-4 text-4xl font-bold font-mono text-orange-500">O MNIE</h2>
+    <div className="prose prose-base m-4 text-justify font-mono border-dotted border-2 border-orange-500 p-4">
+      
+      <p>Cześć! Nazywam się <span className="font-bold text-orange-500">Łukasz Chwalisz</span>. Jestem psychologiem, absolwentem Uniwersytetu im. Adama Mickiewicza w Poznaniu, Wydział Nauk Społecznych, Instytut Psychologii (obecnie Wydział Psychologii i Kogniwistyki UAM) (2006 r.). Pracuję jako psychoterapeuta. Chciałbym zaprosić Państwa do zapoznania się z ofertę mojej pracy w ramach prywatnego gabnetu psychologicznego.
+      </p>
+      <p> Początki mojej pracy zawodowej to staż w Hostelu Interwencji Kryzysowej w Chybach (koło Poznania), a potem praca w Punkcie Interwencji Kryzysowej w Poznaniu (2007/2008). Kolejne doświadczenia zdobywałem w ośrodkach pomocy osobom potrzebującym, w różnych stadiach zaburzeń psychicznych i niepełnosprawności intelektualnej.</p>
+
+      <p> W latach byłem kuratorem społecznym (2009-2014) dla nieletnich, rodzin dysfunkcyjnych i osób uzależnionych. W 2010 otrzymałem uprawnienia do pełnienia roli mediatora. Od 2011 roku zajmuje się zagadnieniami przemocy w pracy w ramach stowarzyszenia "OSA" (jestem członkiem zarządu, II kadencja). Prowadzę konsultacje indywidualne, dyżury telefoniczne, grupy wsparcia psychologicznego w razie potrzeby. </p>
+
+      <p>Od 2015 roku jestem biegłym sądowym w zakresie psychologii pracy i mobbingu (obecnie druga kadencja). Sporządzam opinie psychologiczne dla sądów, biorę udział w rozprawach.</p>
+
+      <p>W ramach działalności gabinetu psychologicznego prowadzę psychoterapię w nurcie psychodynamicznym psychologii analitycznej Carla Gustawa Junga. Odbyłem szkolenie podstawowe i zaawansowane organizowane przez Polskie Towarzystwo Psychoanalizy Jungowskiej. Jestem w trakcie certyfikacji w International Association for Analytical Psychology – IAAP. Pracuję pod regularną superwizją. </p>
+
+      <p>Od 2022 odbywam szkolenie w ramach terapii systemowej organizowane przez Wielkopolskie Towarzystwo Terapii Systemowej. Dotychczas ukończyłem kurs podstawowy. Uczestniczę w superwizji grupowej w ramach podejścia systemowego.</p>
+    </div>
+    
+    <h2 className="m-4 text-4xl font-bold font-mono text-orange-500">OFERTA</h2>
+    <h2 className="m-4 text-2xl font-bold font-mono text-gray-500 bg-yellow-200">Psychoterapia</h2>
+
+    <div className="container lg:flex lg:space-x-4 m-4 p-4 font-mono text-justify">
+      <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
+        
+        <div className="p-4 mb-4">
+        <h3 className="text-lg text-center font-bold mb-4">PSYCHOTERAPIA INDYWIDUALNA</h3>
+        <div className="">
+        <p>Psychoterapia osobowości, analiza treści nieświadomych, mechanizmów obronych, symboliki zawartej w snach, a także funkcjonowania w systemie rodzinnym, analiza genogramu, motywów postępowania wewnętrznęgo i zewnętrznego na różnych poziomach.</p>
+        <p className="font-semibold text-orange-500 text-right mt-2">150 zł / 50 minut</p>
+        </div>     
         </div>
+        
+        <div className="p-4 mb-4">
+        <h3 className="text-lg text-center font-bold mb-4">PSYCHOTERAPIA INDYWIDUALNA (ONLINE)</h3>
+        <p>Psychoterapia indywidualna w formule online może być uzupełnieniem do procesu psychoterapii stacjonalnej albo osobnym procesem terapeutycznym. Ze względu na specyfikę w/w formy kontaktu z pacjentem zalecam okresowe wizyty w formie psychoterapii stacjonarnej.</p>
+        <p className="font-semibold text-orange-500 text-right  mt-2">150 zł / 50 minut</p>
+        </div>
+        
+        <div className="p-4 mb-4">
+        <h3 className="text-lg text-center font-bold mb-4">TERAPIA PAR</h3>
+        <p>Psychoterapia pary, mediacje rodzinne - poprawa wzajemnego zrozumienia potrzeb, komunikacji w parze, wypracowanie konstruktywnych rozwiązań bądź przepracowanie rozstania, relacje z dziećmi, funcjonowanie rodziny w sytuacji kryzysu małżeńskiego
+        </p>
+        <p className="font-semibold text-orange-500 text-right mt-2">200 zł / 80 minut</p>
+        </div>
+
       </div>
+    </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+          <h2 className="m-4 text-2xl font-bold font-mono text-gray-500 bg-yellow-200">Warsztaty</h2>
+          
+
+    <div className="container lg:flex lg:space-x-4 m-4 p-4 font-mono text-justify">
+    <Carousel>
+        <CarouselContent className="">
+
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-4 mb-4 space-x-4">
+          <h3 className="text-lg text-center font-bold mb-4">Gra z symbolami</h3>
+          <p>Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
+          
+          </div>
+          </CarouselItem>
+
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-4 mb-4 space-x-4">
+          <h3 className="text-lg text-center font-bold mb-4">Zabawa w piaskownicy</h3>
+          <p>Warsztaty symboliczne przy użyciu piasku.</p>
+          
+  
+          </div>
+          </CarouselItem>
+
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-4 b-4 space-x-4">
+          <h3 className="text-lg text-center font-bold mb-4">Sklep z maskami</h3>
+          <p>Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.
+          </p>
+          
+  
+          </div>
+          </CarouselItem>
+
+        </CarouselContent>
+        <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+    
+    </div>
+    
+    
+    <div className="prose prose-base lg:flex lg:space-x-4 font-mono text-justify">
+      <div className="p-4">
+      <h3 className="text-lg text-center font-bold mb-4">WARSZTATY</h3>
+      <p>Zajęcia grupowe mogą być uzupełnieniem do procesu terapeutycznego albo odpowiadać na konkretne zapotrzebowania uczestników. Warsztat odbywa się przy zgłoszeniu co najmniej 8 osób. W wypadku większej grupy, powyżej 20 osób, jest możliwość rozdzielenia zajęć na kilka spotkań w osobnych terminach. Propozycje warsztatów przedtawiam poniżej.</p>
+      <p className="font-semibold text-orange-500 text-right mt-2">100 zł (od uczestnika) / 50 minut</p>
       </div>
+    </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+    <h2 className="m-4 text-4xl font-bold font-mono text-orange-500">BLOG</h2>
+    <div className="container lg:flex lg:space-x-4 m-4 p-4 font-mono text-justify">
+    <Carousel>
+        <CarouselContent className="">
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-4 mb-4 space-x-4">
+          <h3 className="text-lg text-center font-bold mb-4">Gra z symbolami</h3>
+          <p>Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
+          
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+          </div>
+          </CarouselItem>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-4 mb-4 space-x-4">
+          <h3 className="text-lg text-center font-bold mb-4">Zabawa w piaskownicy</h3>
+          <p>Warsztaty symboliczne przy użyciu piasku.</p>
+          
+  
+          </div>
+          </CarouselItem>
+
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-4 b-4 space-x-4">
+          <h3 className="text-lg text-center font-bold mb-4">Sklep z maskami</h3>
+          <p>Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.
           </p>
-        </a>
-      </div>
+          
+  
+          </div>
+          </CarouselItem>
+
+        </CarouselContent>
+        <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+    
+    </div>
+    
     </main>
   );
 }
