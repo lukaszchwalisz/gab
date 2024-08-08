@@ -16,19 +16,19 @@ export default function Home() {
   return (
 
     <main className="container bg-slate-50 flex h-max max-w-full flex-col items-center justify-between p-4">
-    
+
     <Image
-              src="/xlcx.webp"
-              alt="My Logo"
-              className="mb-4"
-              width={250}
-              height={250}
-              priority
-            />
+      src="/xlcx.webp"
+      alt="My Logo"
+      className="mb-4"
+      width={250}
+      height={250}
+      priority
+    />
 
     <h2 className="m-4 text-4xl font-bold font-mono text-orange-500">O MNIE</h2>
     <div className="prose prose-base m-4 text-justify font-mono border-dotted border-2 border-orange-500 p-4">
-      
+
       <p>Cześć! Nazywam się <span className="font-bold text-orange-500">Łukasz Chwalisz</span>. Jestem psychologiem, absolwentem Uniwersytetu im. Adama Mickiewicza w Poznaniu, Wydział Nauk Społecznych, Instytut Psychologii (obecnie Wydział Psychologii i Kogniwistyki UAM) (2006 r.). Pracuję jako psychoterapeuta. Chciałbym zaprosić Państwa do zapoznania się z ofertę mojej pracy w ramach prywatnego gabnetu psychologicznego.
       </p>
       <p> Początki mojej pracy zawodowej to staż w Hostelu Interwencji Kryzysowej w Chybach (koło Poznania), a potem praca w Punkcie Interwencji Kryzysowej w Poznaniu (2007/2008). Kolejne doświadczenia zdobywałem w ośrodkach pomocy osobom potrzebującym, w różnych stadiach zaburzeń psychicznych i niepełnosprawności intelektualnej.</p>
@@ -41,27 +41,27 @@ export default function Home() {
 
       <p>Od 2022 odbywam szkolenie w ramach terapii systemowej organizowane przez Wielkopolskie Towarzystwo Terapii Systemowej. Dotychczas ukończyłem kurs podstawowy. Uczestniczę w superwizji grupowej w ramach podejścia systemowego.</p>
     </div>
-    
+
     <h2 className="m-4 text-4xl font-bold font-mono text-orange-500">OFERTA</h2>
     <h2 className="m-4 text-2xl font-bold font-mono text-gray-500 bg-yellow-200">Psychoterapia</h2>
 
     <div className="container lg:flex lg:space-x-4 m-4 p-4 font-mono text-justify">
       <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
-        
+
         <div className="p-4 mb-4">
         <h3 className="text-lg text-center font-bold mb-4">PSYCHOTERAPIA INDYWIDUALNA</h3>
         <div className="">
         <p>Psychoterapia osobowości, analiza treści nieświadomych, mechanizmów obronych, symboliki zawartej w snach, a także funkcjonowania w systemie rodzinnym, analiza genogramu, motywów postępowania wewnętrznęgo i zewnętrznego na różnych poziomach.</p>
         <p className="font-semibold text-orange-500 text-right mt-2">150 zł / 50 minut</p>
-        </div>     
         </div>
-        
+        </div>
+
         <div className="p-4 mb-4">
         <h3 className="text-lg text-center font-bold mb-4">PSYCHOTERAPIA INDYWIDUALNA (ONLINE)</h3>
         <p>Psychoterapia indywidualna w formule online może być uzupełnieniem do procesu psychoterapii stacjonalnej albo osobnym procesem terapeutycznym. Ze względu na specyfikę w/w formy kontaktu z pacjentem zalecam okresowe wizyty w formie psychoterapii stacjonarnej.</p>
         <p className="font-semibold text-orange-500 text-right  mt-2">150 zł / 50 minut</p>
         </div>
-        
+
         <div className="p-4 mb-4">
         <h3 className="text-lg text-center font-bold mb-4">TERAPIA PAR</h3>
         <p>Psychoterapia pary, mediacje rodzinne - poprawa wzajemnego zrozumienia potrzeb, komunikacji w parze, wypracowanie konstruktywnych rozwiązań bądź przepracowanie rozstania, relacje z dziećmi, funcjonowanie rodziny w sytuacji kryzysu małżeńskiego
@@ -73,7 +73,7 @@ export default function Home() {
     </div>
 
           <h2 className="m-4 text-2xl font-bold font-mono text-gray-500 bg-yellow-200">Warsztaty</h2>
-          
+
 
     <div className="container lg:flex lg:space-x-4 m-4 p-4 font-mono text-justify">
     <Carousel>
@@ -83,7 +83,7 @@ export default function Home() {
           <div className="p-4 mb-4 space-x-4">
           <h3 className="text-lg text-center font-bold mb-4">Gra z symbolami</h3>
           <p>Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
-          
+
           </div>
           </CarouselItem>
 
@@ -91,8 +91,8 @@ export default function Home() {
           <div className="p-4 mb-4 space-x-4">
           <h3 className="text-lg text-center font-bold mb-4">Zabawa w piaskownicy</h3>
           <p>Warsztaty symboliczne przy użyciu piasku.</p>
-          
-  
+
+
           </div>
           </CarouselItem>
 
@@ -101,8 +101,8 @@ export default function Home() {
           <h3 className="text-lg text-center font-bold mb-4">Sklep z maskami</h3>
           <p>Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.
           </p>
-          
-  
+
+
           </div>
           </CarouselItem>
 
@@ -110,10 +110,10 @@ export default function Home() {
         <CarouselPrevious />
       <CarouselNext />
     </Carousel>
-    
+
     </div>
-    
-    
+
+
     <div className="prose prose-base lg:flex lg:space-x-4 font-mono text-justify">
       <div className="p-4">
       <h3 className="text-lg text-center font-bold mb-4">WARSZTATY</h3>
@@ -131,7 +131,7 @@ export default function Home() {
           <div className="p-4 mb-4 space-x-4">
           <h3 className="text-lg text-center font-bold mb-4">Gra z symbolami</h3>
           <p>Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
-          
+
 
           </div>
           </CarouselItem>
@@ -140,8 +140,8 @@ export default function Home() {
           <div className="p-4 mb-4 space-x-4">
           <h3 className="text-lg text-center font-bold mb-4">Zabawa w piaskownicy</h3>
           <p>Warsztaty symboliczne przy użyciu piasku.</p>
-          
-  
+
+
           </div>
           </CarouselItem>
 
@@ -150,8 +150,8 @@ export default function Home() {
           <h3 className="text-lg text-center font-bold mb-4">Sklep z maskami</h3>
           <p>Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.
           </p>
-          
-  
+
+
           </div>
           </CarouselItem>
 
@@ -159,9 +159,9 @@ export default function Home() {
         <CarouselPrevious />
       <CarouselNext />
     </Carousel>
-    
+
     </div>
-    
+
     </main>
   );
 }
