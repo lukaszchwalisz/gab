@@ -81,7 +81,7 @@ export default function Home() {
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-4 mb-4 space-x-4">
-          <h3 className="text-lg text-center font-bold mb-4">Gra z symbolami</h3>
+          <h3 className="text-center font-bold mb-4">Gra z symbolami</h3>
           <p>Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
 
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-4 mb-4 space-x-4">
-          <h3 className="text-lg text-center font-bold mb-4">Zabawa w piaskownicy</h3>
+          <h3 className="text-center font-bold mb-4">Zabawa w piaskownicy</h3>
           <p>Warsztaty symboliczne przy użyciu piasku.</p>
 
 
@@ -98,7 +98,7 @@ export default function Home() {
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-4 b-4 space-x-4">
-          <h3 className="text-lg text-center font-bold mb-4">Sklep z maskami</h3>
+          <h3 className="text-center font-bold mb-4">Sklep z maskami</h3>
           <p>Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.
           </p>
 
@@ -116,7 +116,7 @@ export default function Home() {
 
     <div className="prose prose-base lg:flex lg:space-x-4 font-mono text-justify">
       <div className="p-4">
-      <h3 className="text-lg text-center font-bold mb-4">WARSZTATY</h3>
+      <h2 className="text-center font-bold mb-4">WARSZTATY</h2>
       <p>Zajęcia grupowe mogą być uzupełnieniem do procesu terapeutycznego albo odpowiadać na konkretne zapotrzebowania uczestników. Warsztat odbywa się przy zgłoszeniu co najmniej 8 osób. W wypadku większej grupy, powyżej 20 osób, jest możliwość rozdzielenia zajęć na kilka spotkań w osobnych terminach. Propozycje warsztatów przedtawiam poniżej.</p>
       <p className="font-semibold text-orange-500 text-right mt-2">100 zł (od uczestnika) / 50 minut</p>
       </div>
