@@ -72,7 +72,7 @@ export default function Home() {
       </div>
     </div>
 
-          <h2 className="m-4 text-2xl font-bold font-mono text-gray-500 bg-yellow-200">Warsztaty</h2>
+      <h2 className="m-4 text-2xl font-bold font-mono text-gray-500 bg-yellow-200">Warsztaty</h2>
 
 
     <div className="container lg:flex lg:space-x-4 m-4 p-4 font-mono text-justify">
@@ -122,15 +122,41 @@ export default function Home() {
       </div>
     </div>
 
+
     <h2 className="m-4 text-4xl font-bold font-mono text-orange-500">BLOG</h2>
+
+
     <div className="container lg:flex lg:space-x-4 m-4 p-4 font-mono text-justify">
     <Carousel>
-        <CarouselContent className="">
+        <CarouselContent className="md:basis-1/2 lg:basis-1/3">
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-4 mb-4 space-x-4">
-          <h3 className="text-lg text-center font-bold mb-4">Gra z symbolami</h3>
-          <p>Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
+
+          <h3 className="text-lg text-center font-bold mb-4">Pacjent Zero</h3>
+          
+          <p className="text-gray-500">Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób, które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych, wyleczonych, zmarłych.</p>
+          </div>
+          </CarouselItem>
+
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-4 mb-4 space-x-4">
+          <h3 className="text-lg text-center font-bold mb-4">Dwa filmy</h3>
+          <p className="text-gray-500">Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży", wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".</p>
+          </div>
+          </CarouselItem>
+
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-4 mb-4 space-x-4">
+          <h3 className="text-lg text-center font-bold mb-4">Nieświadomość indywidualna i zbiorowa - wystąpienie na kongresie "Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r."</h3>
+          <p className="text-gray-500">Dzień dobry. W godzinach popołudniowych zaprezentujemy Państwu warsztat „Symbolic constellations” autorstwa czeskiego analityka jungowskiego Martina Skali, który w założeniach teoretycznych odwołuje się bezpośrednio do koncepcji nieświadomości indywidualnej i nieświadomości zbiorowej.</p>
+          </div>
+          </CarouselItem>
+
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-4 mb-4 space-x-4">
+          <h3 className="text-lg text-center font-bold mb-4">Golem: archetypowy mit czy miejska legenda?</h3>
+          <p className="text-gray-500">Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar.</p>
 
 
           </div>
@@ -138,8 +164,8 @@ export default function Home() {
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-4 mb-4 space-x-4">
-          <h3 className="text-lg text-center font-bold mb-4">Zabawa w piaskownicy</h3>
-          <p>Warsztaty symboliczne przy użyciu piasku.</p>
+          <h3 className="text-lg text-center font-bold mb-4">Sny a nieświadomy sens</h3>
+          <p className="text-gray-500">W rozdziale „Podróże” we książce „Wspomnienia, sny, myśli” C.G. Jung przytoczył sen, który miał podczas podróży do Tunisu.</p>
 
 
           </div>
@@ -147,8 +173,8 @@ export default function Home() {
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-4 b-4 space-x-4">
-          <h3 className="text-lg text-center font-bold mb-4">Sklep z maskami</h3>
-          <p>Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.
+          <h3 className="text-lg text-center font-bold mb-4">Co oznacza Lechaim ?</h3>
+          <p className="text-gray-500">„Lechaim !” To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie „Za życie!”.
           </p>
 
 
@@ -159,6 +185,12 @@ export default function Home() {
         <CarouselPrevious />
       <CarouselNext />
     </Carousel>
+    </div>
+
+    <h2 className="m-4 text-4xl font-bold font-mono text-orange-500">KONTAKT</h2>
+    <div className="prose prose-base m-4 text-justify font-mono border-dotted border-2 border-orange-500 p-4">
+      <p>tel. 665 696 372</p>
+      <p>lukasz.chwalisz@gmail.com</p>
 
     </div>
 
