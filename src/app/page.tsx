@@ -26,12 +26,12 @@ export default function Home() {
       priority
     />
 
-    <h1 className="m-4 font-bold text-lime-500">O MNIE</h1>
+    {/* <h1 className="m-4 font-bold text-lime-500">O MNIE</h1> */}
     <div className="prose prose-base m-4 text-justify  rounded-md shadow-md  p-4">
 
       <p>Cześć! Nazywam się <span className="font-bold text-orange-500">Łukasz Chwalisz</span>. Jestem psychologiem, absolwentem Uniwersytetu im. Adama Mickiewicza w Poznaniu, Wydział Nauk Społecznych, Instytut Psychologii (obecnie Wydział Psychologii i Kogniwistyki UAM) (2006 r.). Pracuję jako psychoterapeuta. Chciałbym zaprosić Państwa do zapoznania się z ofertę mojej pracy w ramach prywatnego gabnetu psychologicznego.
       </p>
-      <p> Początki mojej pracy zawodowej to staż w Hostelu Interwencji Kryzysowej w Chybach (koło Poznania), a potem praca w Punkcie Interwencji Kryzysowej w Poznaniu (2007/2008). Kolejne doświadczenia zdobywałem w ośrodkach pomocy osobom potrzebującym, w różnych stadiach zaburzeń psychicznych i niepełnosprawności intelektualnej.</p>
+      {/* <p> Początki mojej pracy zawodowej to staż w Hostelu Interwencji Kryzysowej w Chybach (koło Poznania), a potem praca w Punkcie Interwencji Kryzysowej w Poznaniu (2007/2008). Kolejne doświadczenia zdobywałem w ośrodkach pomocy osobom potrzebującym, w różnych stadiach zaburzeń psychicznych i niepełnosprawności intelektualnej.</p>
 
       <p> W latach byłem kuratorem społecznym (2009-2014) dla nieletnich, rodzin dysfunkcyjnych i osób uzależnionych. W 2010 otrzymałem uprawnienia do pełnienia roli mediatora. Od 2011 roku zajmuje się zagadnieniami przemocy w pracy w ramach stowarzyszenia "OSA" (jestem członkiem zarządu, II kadencja). Prowadzę konsultacje indywidualne, dyżury telefoniczne, grupy wsparcia psychologicznego w razie potrzeby. </p>
 
@@ -39,7 +39,7 @@ export default function Home() {
 
       <p>W ramach działalności gabinetu psychologicznego prowadzę psychoterapię w nurcie psychodynamicznym psychologii analitycznej Carla Gustawa Junga. Odbyłem szkolenie podstawowe i zaawansowane organizowane przez Polskie Towarzystwo Psychoanalizy Jungowskiej. Jestem w trakcie certyfikacji w International Association for Analytical Psychology – IAAP. Pracuję pod regularną superwizją. </p>
 
-      <p>Od 2022 odbywam szkolenie w ramach terapii systemowej organizowane przez Wielkopolskie Towarzystwo Terapii Systemowej. Dotychczas ukończyłem kurs podstawowy. Uczestniczę w superwizji grupowej w ramach podejścia systemowego.</p>
+      <p>Od 2022 odbywam szkolenie w ramach terapii systemowej organizowane przez Wielkopolskie Towarzystwo Terapii Systemowej. Dotychczas ukończyłem kurs podstawowy. Uczestniczę w superwizji grupowej w ramach podejścia systemowego.</p> */}
     </div>
 
     <div className="p-4 mb-4 rounded-md shadow-md">
