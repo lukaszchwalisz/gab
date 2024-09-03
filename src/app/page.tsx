@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import Image from "next/image";
-
+import Link from "next/link";
 import {
   Carousel,
   CarouselContent,
@@ -72,17 +72,19 @@ export default function Home() {
       </div>
     </div>
 
-      <div className="prose prose-base lg:flex lg:space-x-4 text-justify">
+      <div className="container lg:flex lg:space-x-4 text-justify">
+      
       <div className="p-4 mb-4 rounded-md shadow-md ">
       <h2 className="text-center font-bold mb-4">WARSZTATY</h2>
       <p className="">Zajęcia grupowe mogą być uzupełnieniem do procesu terapeutycznego albo odpowiadać na konkretne zapotrzebowania uczestników. Warsztat odbywa się przy zgłoszeniu co najmniej 8 osób. W wypadku większej grupy, powyżej 20 osób, jest możliwość rozdzielenia zajęć na kilka spotkań w osobnych terminach. Propozycje warsztatów przedtawiam poniżej.</p>
       <p className="font-semibold text-orange-500 text-right mt-2">100 zł (od uczestnika) / 50 minut</p>
       </div>
-      </div>
+      
+      
 
-    <div className="container lg:flex lg:space-x-4 m-4 p-4  text-justify">
+    <div className="container flex lg:flex lg:space-x-4 m-4 p-4  text-justify">
         
-      <Carousel>
+          <Carousel orientation="vertical">
           <CarouselContent className="">
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
@@ -108,11 +110,13 @@ export default function Home() {
           </CarouselItem>
 
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="m-4"/>
+      <CarouselNext className="m-4"/>
       </Carousel>
 
     </div>
+    </div>
+
     </div>
 
     <div className="p-4 mb-4 rounded-md shadow-md">
@@ -123,7 +127,7 @@ export default function Home() {
         <CarouselContent className="md:basis-1/2 lg:basis-1/3">
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-md space-x-4">
+          <div className="p-4 mb-4 space-x-4">
 
           <h3 className="text-center font-bold mb-4">Pacjent Zero</h3>
           
@@ -132,21 +136,21 @@ export default function Home() {
           </CarouselItem>
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-md space-x-4">
+          <div className="p-4 mb-4 space-x-4">
           <h3 className="text-center font-bold mb-4">Dwa filmy</h3>
           <p className="">Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży", wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".</p>
           </div>
           </CarouselItem>
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-md space-x-4">
+          <div className="p-4 mb-4 space-x-4">
           <h3 className="text-center font-bold mb-4">Nieświadomość indywidualna i zbiorowa</h3>
           <p className="">Wystąpienie na kongresie "Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.</p>
           </div>
           </CarouselItem>
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-md space-x-4">
+          <div className="p-4 mb-4 space-x-4">
           <h3 className="text-center font-bold mb-4">Golem: archetypowy mit czy miejska legenda?</h3>
           <p className="">Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar.</p>
 
@@ -155,7 +159,7 @@ export default function Home() {
           </CarouselItem>
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-md space-x-4">
+          <div className="p-4 mb-4 space-x-4">
           <h3 className="text-center font-bold mb-4">Sny a nieświadomy sens</h3>
           <p className="">W rozdziale „Podróże” we książce „Wspomnienia, sny, myśli” C.G. Jung przytoczył sen, który miał podczas podróży do Tunisu.</p>
 
@@ -172,10 +176,12 @@ export default function Home() {
           </CarouselItem>
 
         </CarouselContent>
-        <CarouselPrevious />
-      <CarouselNext />
+        <CarouselPrevious className="m-4"/>
+      <CarouselNext className="m-4"/>
     </Carousel>
+
     </div>
+
 
     </div>
 
@@ -185,6 +191,123 @@ export default function Home() {
       <p>lukasz.chwalisz@gmail.com</p>
 
     </div>
+
+    {/* <div className="grid justify-center m-4 mt-20 mb-20 lg:mx-20 xl:mx-40 2xl:mx-80">
+  
+
+        <div className="grid gap-4 justify-center m-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
+          
+          <div className="flex flex-col items-start max-w-sm p-6 bg-blue-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div>
+              <Link href="about">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">
+                  O nas
+                </h5>
+              </Link>
+              <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">
+                Poczytaj o historii powstania stowarzyszenia "OSA",
+                najciekawszych wydarzeniach, sprawozdaniach i strukturze
+                organizacyjnej.
+              </p>
+            </div>
+            <div className="mt-auto">
+              <Link href="about"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800"
+              >
+                Sprawdź
+                <svg
+                  className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </Link>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-start max-w-sm p-6 border bg-blue-50 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div>
+              <Link href="projekty">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">
+                  Projekty
+                </h5>
+              </Link>
+              <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">
+                Aktualności z działalności stowarzyszenia "OSA": realizowane
+                projekty, ważne komunikaty, współpraca i możliwość
+                dofinansowania działalności stowarzyszenia.
+              </p>
+            </div>
+            <div className="mt-auto">
+              <Link href="projekty"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800"
+              >
+                Sprawdź
+                <svg
+                  className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </Link>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-start max-w-sm p-6 bg-blue-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div>
+              <Link href="wiedza">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">
+                  Wiedza
+                </h5>
+              </Link>
+              <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">
+                Zapoznaj się z najważniejszą terminologią dotyczącą zjawiska
+                mobbingu.
+              </p>
+            </div>
+            <div className="mt-auto">
+              <Link href="wiedza"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800"
+              >
+                Sprawdź
+                <svg
+                  className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div> */}
 
     </main>
   );
