@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { Avatar, AvatarImage } from "@/components/ui/avatar"
 import {
   Carousel,
   CarouselContent,
@@ -27,7 +28,7 @@ export default function Home() {
     />
 
     {/* <h1 className="m-4 font-bold text-lime-500">O MNIE</h1> */}
-    <div className="prose prose-base m-4 text-justify  rounded-md shadow-md  p-4">
+    <div className="prose prose-base m-4 text-justify  rounded-md shadow-sm  p-4">
 
       <p>Cześć! Nazywam się <span className="font-bold text-orange-500">Łukasz Chwalisz</span>. Jestem psychologiem, absolwentem Uniwersytetu im. Adama Mickiewicza w Poznaniu, Wydział Nauk Społecznych, Instytut Psychologii (obecnie Wydział Psychologii i Kogniwistyki UAM) (2006 r.). Pracuję jako psychoterapeuta. Chciałbym zaprosić Państwa do zapoznania się z ofertę mojej pracy w ramach prywatnego gabnetu psychologicznego.
       </p>
@@ -40,15 +41,17 @@ export default function Home() {
       <p>W ramach działalności gabinetu psychologicznego prowadzę psychoterapię w nurcie psychodynamicznym psychologii analitycznej Carla Gustawa Junga. Odbyłem szkolenie podstawowe i zaawansowane organizowane przez Polskie Towarzystwo Psychoanalizy Jungowskiej. Jestem w trakcie certyfikacji w International Association for Analytical Psychology – IAAP. Pracuję pod regularną superwizją. </p>
 
       <p>Od 2022 odbywam szkolenie w ramach terapii systemowej organizowane przez Wielkopolskie Towarzystwo Terapii Systemowej. Dotychczas ukończyłem kurs podstawowy. Uczestniczę w superwizji grupowej w ramach podejścia systemowego.</p> */}
+    
+    <Link href="/blog" className="no-underline font-bold text-orange-500">Bio</Link>
     </div>
 
-    <div className="p-4 mb-4 rounded-md shadow-md">
+    <div className="p-4 mb-4 rounded-md shadow-sm">
     <h1 className="m-4 font-bold text-center text-lime-500">OFERTA</h1>
 
     <div className="container lg:flex lg:space-x-4 m-4 p-4  text-justify">
       <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
 
-        <div className="p-4 mb-4 rounded-md shadow-md ">
+        <div className="p-4 mb-4 rounded-md shadow-sm ">
         <h2 className="text-center font-bold mb-4">PSYCHOTERAPIA INDYWIDUALNA</h2>
         <div className="">
         <p className="">Psychoterapia osobowości, analiza treści nieświadomych, mechanizmów obronych, symboliki zawartej w snach, a także funkcjonowania w systemie rodzinnym, analiza genogramu, motywów postępowania wewnętrznęgo i zewnętrznego na różnych poziomach.</p>
@@ -56,13 +59,13 @@ export default function Home() {
         </div>
         </div>
 
-        <div className="p-4 mb-4 rounded-md shadow-md ">
+        <div className="p-4 mb-4 rounded-md shadow-sm ">
         <h2 className="text-center font-bold mb-4">PSYCHOTERAPIA INDYWIDUALNA (ONLINE)</h2>
         <p className="">Psychoterapia indywidualna w formule online może być uzupełnieniem do procesu psychoterapii stacjonalnej albo osobnym procesem terapeutycznym. Ze względu na specyfikę w/w formy kontaktu z pacjentem zalecam okresowe wizyty w formie psychoterapii stacjonarnej.</p>
         <p className="font-semibold text-orange-500 text-right  mt-2">150 zł / 50 minut</p>
         </div>
 
-        <div className="p-4 mb-4 rounded-md shadow-md ">
+        <div className="p-4 mb-4 rounded-md shadow-sm ">
         <h2 className="text-center font-bold mb-4">TERAPIA PAR</h2>
         <p className="">Psychoterapia pary, mediacje rodzinne - poprawa wzajemnego zrozumienia potrzeb, komunikacji w parze, wypracowanie konstruktywnych rozwiązań bądź przepracowanie rozstania, relacje z dziećmi, funcjonowanie rodziny w sytuacji kryzysu małżeńskiego
         </p>
@@ -74,10 +77,18 @@ export default function Home() {
 
       <div className="container lg:flex lg:space-x-4 text-justify">
       
-      <div className="p-4 mb-4 rounded-md shadow-md ">
+      <div className="p-4 mb-4 rounded-md shadow-sm">
       <h2 className="text-center font-bold mb-4">WARSZTATY</h2>
       <p className="">Zajęcia grupowe mogą być uzupełnieniem do procesu terapeutycznego albo odpowiadać na konkretne zapotrzebowania uczestników. Warsztat odbywa się przy zgłoszeniu co najmniej 8 osób. W wypadku większej grupy, powyżej 20 osób, jest możliwość rozdzielenia zajęć na kilka spotkań w osobnych terminach. Propozycje warsztatów przedtawiam poniżej.</p>
-      <p className="font-semibold text-orange-500 text-right mt-2">100 zł (od uczestnika) / 50 minut</p>
+      <p className="font-semibold text-orange-500 text-right mt-2 mb-12 ">100 zł (od uczestnika) / 50 minut</p>
+      <Image
+      src="/obr/istock4.jpg"
+      alt="My Logo"
+      className="mx-auto mb-2 rounded-lg"
+      width={500}
+      height={300}
+      priority
+      />
       </div>
       
       
@@ -88,21 +99,50 @@ export default function Home() {
           <CarouselContent className="">
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-md space-x-4">
+          <div className="p-4 mb-4 rounded-md shadow-sm space-x-4">
+          <Image
+            src="/obr/sc3.jpg"
+            alt="My Logo"
+            className="mx-auto mb-2 rounded-lg"
+            width={100}
+            height={100}
+            priority
+            />
+
           <h3 className="text-center font-bold mb-4">Gra z symbolami</h3>
           <p className="">Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
+          
           </div>
+          
           </CarouselItem>
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-md space-x-4">
+          <div className="p-4 mb-4 rounded-md shadow-sm space-x-4">
+          <Image
+            src="/obr/sandplay4.jpg"
+            alt="My Logo"
+            className="mx-auto mb-2 rounded-lg"
+            width={100}
+            height={1}
+            priority
+            />
+
           <h3 className="text-center font-bold mb-4">Zabawa w piaskownicy</h3>
           <p className="">Warsztaty symboliczne przy użyciu piasku.</p>
           </div>
           </CarouselItem>
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-md space-x-4">
+          <div className="p-4 mb-4 rounded-md shadow-sm space-x-4">
+          <Image
+            src="/obr/sklep0.jpg"
+            alt="My Logo"
+            className="mx-auto mb-2 rounded-lg"
+            width={100}
+            height={100}
+            priority
+            />
+
           <h3 className="text-center font-bold mb-4">Sklep z maskami</h3>
           <p className="">Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.
           </p>
@@ -119,8 +159,13 @@ export default function Home() {
 
     </div>
 
-    <div className="p-4 mb-4 rounded-md shadow-md">
-    <h1 className="m-4 font-bold text-center text-lime-500">BLOG</h1>
+    <div className="p-4 mb-4 rounded-md shadow-sm">
+
+    <h1 className="m-4 font-bold text-center text-lime-500">
+
+      <Link href="/blog" className="no-underline ">Blog</Link>
+
+    </h1>
 
     <div className="container lg:flex lg:space-x-4 m-4 p-4  text-justify">
     <Carousel>
@@ -168,7 +213,7 @@ export default function Home() {
           </CarouselItem>
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 b-4 rounded-md shadow-md space-x-4">
+          <div className="p-4 b-4 rounded-md shadow-sm space-x-4">
           <h3 className="text-center font-bold mb-4">Co oznacza Lechaim ?</h3>
           <p className="">„Lechaim !” To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie „Za życie!”.
           </p>
