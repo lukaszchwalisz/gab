@@ -2,13 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Avatar, AvatarImage } from "@/components/ui/avatar"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel"
 
 
@@ -150,8 +147,6 @@ export default function Home() {
           </CarouselItem>
 
         </CarouselContent>
-        {/* <CarouselPrevious className="m-4"/>
-      <CarouselNext className="m-4"/> */}
       </Carousel>
 
     </div>
@@ -221,8 +216,6 @@ export default function Home() {
           </CarouselItem>
 
         </CarouselContent>
-        {/* <CarouselPrevious className="m-4"/>
-      <CarouselNext className="m-4"/> */}
     </Carousel>
 
     </div>
