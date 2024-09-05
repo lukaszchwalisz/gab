@@ -150,8 +150,8 @@ export default function Home() {
           </CarouselItem>
 
         </CarouselContent>
-        <CarouselPrevious className="m-4"/>
-      <CarouselNext className="m-4"/>
+        {/* <CarouselPrevious className="m-4"/>
+      <CarouselNext className="m-4"/> */}
       </Carousel>
 
     </div>
@@ -221,8 +221,8 @@ export default function Home() {
           </CarouselItem>
 
         </CarouselContent>
-        <CarouselPrevious className="m-4"/>
-      <CarouselNext className="m-4"/>
+        {/* <CarouselPrevious className="m-4"/>
+      <CarouselNext className="m-4"/> */}
     </Carousel>
 
     </div>
