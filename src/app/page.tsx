@@ -42,9 +42,12 @@ export default function Home() {
     <Link href="/blog" className="no-underline font-bold text-orange-500">Bio</Link>
     </div>
 
-    <div className="p-4 mb-4 rounded-md shadow-sm">
-    <h1 className="m-4 font-bold text-center text-lime-500">OFERTA</h1>
-
+    <div className="p-4 mb-4 rounded-md shadow-md">
+    
+    <div className="mb-8 text-center text-6xl">
+    <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">OFERTA</span>
+    </div>
+    
     <div className="container lg:flex lg:space-x-4 m-4 p-4  text-justify">
       <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
 
@@ -74,15 +77,15 @@ export default function Home() {
 
       <div className="container lg:flex lg:space-x-4 text-justify">
       
-      <div className="p-4 mb-4 rounded-md shadow-sm">
-      <h2 className="text-center font-bold mb-4">WARSZTATY</h2>
-      <p className="">Zajęcia grupowe mogą być uzupełnieniem do procesu terapeutycznego albo odpowiadać na konkretne zapotrzebowania uczestników. Warsztat odbywa się przy zgłoszeniu co najmniej 8 osób. W wypadku większej grupy, powyżej 20 osób, jest możliwość rozdzielenia zajęć na kilka spotkań w osobnych terminach. Propozycje warsztatów przedtawiam poniżej.</p>
-      <p className="font-semibold text-orange-500 text-right mt-2 mb-12 ">100 zł (od uczestnika) / 50 minut</p>
+      <div className="p-4">
+      <h1 className="text-center font-bold mb-8">WARSZTATY</h1>
+      <p className="mb-4">Zajęcia grupowe mogą być uzupełnieniem do procesu terapeutycznego albo odpowiadać na konkretne zapotrzebowania uczestników. Warsztat odbywa się przy zgłoszeniu co najmniej 8 osób. W wypadku większej grupy, powyżej 20 osób, jest możliwość rozdzielenia zajęć na kilka spotkań w osobnych terminach. Propozycje warsztatów przedtawiam poniżej.</p>
+      <p className="font-semibold text-orange-500 text-right mb-4">100 zł (od uczestnika) / 50 minut</p>
       <Image
       src="/obr/istock4.jpg"
       alt="My Logo"
       className="mx-auto mb-2 rounded-lg"
-      width={500}
+      width={1000}
       height={300}
       priority
       />
@@ -102,7 +105,7 @@ export default function Home() {
             alt="My Logo"
             className="mx-auto mb-2 rounded-lg"
             width={100}
-            height={100}
+            height={1}
             priority
             />
 
@@ -136,7 +139,7 @@ export default function Home() {
             alt="My Logo"
             className="mx-auto mb-2 rounded-lg"
             width={100}
-            height={100}
+            height={1}
             priority
             />
 
@@ -154,13 +157,13 @@ export default function Home() {
 
     </div>
 
-    <div className="p-4 mb-4 rounded-md shadow-sm">
+    <div className="p-4 mb-4 rounded-md shadow-md">
 
-    <h1 className="m-4 font-bold text-center text-lime-500">
+    <div className="mb-8 text-center text-6xl">
+    <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Blog</span>
+    </div>
 
-      <Link href="/blog" className="no-underline ">Blog</Link>
-
-    </h1>
+  
 
     <div className="container lg:flex lg:space-x-4 m-4 p-4  text-justify">
     <Carousel>
@@ -220,13 +223,20 @@ export default function Home() {
 
     </div>
 
-
     </div>
 
-    <h1 className="m-4 font-bold  text-lime-500">KONTAKT</h1>
-    <div className="prose prose-base m-4 text-justify  border-dotted border-2 border-orange-500 p-4">
+
+    <div className="container p-4 mb-4 rounded-md shadow-md">
+    <div className="mb-8 text-center text-6xl">
+    <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Kontakt</span>
+    </div>
+
+
+    <div className="m-4 text-center p-4">
       <p>tel. 665 696 372</p>
       <p>lukasz.chwalisz@gmail.com</p>
+
+    </div>
 
     </div>
 
