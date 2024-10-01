@@ -78,7 +78,7 @@ export default function Home() {
       <div className="container lg:flex lg:space-x-4 text-justify">
       
       <div className="p-4">
-      <h1 className="text-center font-bold mb-8">WARSZTATY</h1>
+      <h1 className="text-center font-bold mb-8"><Link href="/warsztaty" className="no-underline text-black">WARSZTATY</Link></h1>
       <p className="mb-4">Zajęcia grupowe mogą być uzupełnieniem do procesu terapeutycznego albo odpowiadać na konkretne zapotrzebowania uczestników. Warsztat odbywa się przy zgłoszeniu co najmniej 8 osób. W wypadku większej grupy, powyżej 20 osób, jest możliwość rozdzielenia zajęć na kilka spotkań w osobnych terminach. Propozycje warsztatów przedtawiam poniżej.</p>
       <p className="font-semibold text-orange-500 text-right mb-4">100 zł (od uczestnika) / 50 minut</p>
       <Image
