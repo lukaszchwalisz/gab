@@ -7,6 +7,14 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 
 
@@ -51,109 +59,160 @@ export default function Home() {
     <div className="container lg:flex lg:space-x-4 m-4 p-4  text-justify">
       <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
 
-        <div className="p-4 mb-4 rounded-md shadow-sm ">
-        <h2 className="text-center font-bold mb-4">PSYCHOTERAPIA INDYWIDUALNA</h2>
-        <div className="">
-        <p className="">Psychoterapia osobowości, analiza treści nieświadomych, mechanizmów obronych, symboliki zawartej w snach, a także funkcjonowania w systemie rodzinnym, analiza genogramu, motywów postępowania wewnętrznęgo i zewnętrznego na różnych poziomach.</p>
-        <p className="font-semibold text-orange-500 text-right mt-2">150 zł / 50 minut</p>
-        </div>
-        </div>
 
-        <div className="p-4 mb-4 rounded-md shadow-sm ">
-        <h2 className="text-center font-bold mb-4">PSYCHOTERAPIA INDYWIDUALNA (ONLINE)</h2>
-        <p className="">Psychoterapia indywidualna w formule online może być uzupełnieniem do procesu psychoterapii stacjonalnej albo osobnym procesem terapeutycznym. Ze względu na specyfikę w/w formy kontaktu z pacjentem zalecam okresowe wizyty w formie psychoterapii stacjonarnej.</p>
-        <p className="font-semibold text-orange-500 text-right  mt-2">150 zł / 50 minut</p>
-        </div>
 
-        <div className="p-4 mb-4 rounded-md shadow-sm ">
-        <h2 className="text-center font-bold mb-4">TERAPIA PAR</h2>
-        <p className="">Psychoterapia pary, mediacje rodzinne - poprawa wzajemnego zrozumienia potrzeb, komunikacji w parze, wypracowanie konstruktywnych rozwiązań bądź przepracowanie rozstania, relacje z dziećmi, funcjonowanie rodziny w sytuacji kryzysu małżeńskiego
-        </p>
-        <p className="font-semibold text-orange-500 text-right mt-2">200 zł / 80 minut</p>
-        </div>
+          <div className="p-2 mb-2 space-x-2">
+            <Link href="/warsztaty" className="no-underline">
+              <Card>
+   
+              <CardHeader>
+              <CardTitle>Psychoterapia indywidualna</CardTitle>
+              </CardHeader>
+              <CardContent>
+              <p className="text-gray-500">
+              Psychoterapia osobowości, analiza treści nieświadomych, mechanizmów obronych, symboliki zawartej w snach, a także funkcjonowania w systemie rodzinnym, analiza genogramu, motywów postępowania wewnętrznęgo i zewnętrznego na różnych poziomach.
+                </p>
+              </CardContent>
+              
 
-      </div>
-    </div>
+              <CardFooter><p className="font-semibold text-orange-500">150 zł / 50 minut</p></CardFooter>
 
-      <div className="container lg:flex lg:space-x-4 text-justify">
-      
-      <div className="p-4">
-      <h1 className="text-center font-bold mb-8"><Link href="/warsztaty" className="no-underline text-black">WARSZTATY</Link></h1>
-      <p className="mb-4">Zajęcia grupowe mogą być uzupełnieniem do procesu terapeutycznego albo odpowiadać na konkretne zapotrzebowania uczestników. Warsztat odbywa się przy zgłoszeniu co najmniej 8 osób. W wypadku większej grupy, powyżej 20 osób, jest możliwość rozdzielenia zajęć na kilka spotkań w osobnych terminach. Propozycje warsztatów przedtawiam poniżej.</p>
-      <p className="font-semibold text-orange-500 text-right mb-4">100 zł (od uczestnika) / 50 minut</p>
-      <Image
-      src="/obr/istock4.jpg"
-      alt="My Logo"
-      className="mx-auto mb-2 rounded-lg"
-      width={1000}
-      height={300}
-      priority
-      />
-      </div>
-      
-      
+            </Card>
 
-    <div className="container flex lg:flex lg:space-x-4 m-4 p-4  text-justify">
+            
+            </Link>
+          </div>
+
+          <div className="p-2 mb-2 space-x-2">
+            <Link href="/warsztaty" className="no-underline">
+              <Card>
+
+              <CardHeader>
+              <CardTitle>Psychoterapia indywidualna (online)</CardTitle>
+              </CardHeader>
+              <CardContent>
+              <p className="text-gray-500">
+              Psychoterapia indywidualna w formule online może być uzupełnieniem do procesu psychoterapii stacjonalnej albo osobnym procesem terapeutycznym. Ze względu na specyfikę w/w formy kontaktu z pacjentem zalecam okresowe wizyty w formie psychoterapii stacjonarnej.
+                </p>
+              </CardContent>
+              
+
+              <CardFooter><p className="font-semibold text-orange-500">150 zł / 50 minut</p></CardFooter>
+              
+            </Card>
+            </Link>
+          </div>
+
+          <div className="p-2 mb-2 space-x-2">
+            <Link href="/warsztaty" className="no-underline">
+              <Card>
+              
+              <CardHeader>
+              <CardTitle>Terapia par</CardTitle>
+              </CardHeader>
+              <CardContent>
+              <p className="text-gray-500">
+              Psychoterapia pary, mediacje rodzinne - poprawa wzajemnego zrozumienia potrzeb, komunikacji w parze, wypracowanie konstruktywnych rozwiązań bądź przepracowanie rozstania, relacje z dziećmi, funcjonowanie rodziny w sytuacji kryzysu małżeńskiego.
+                </p>
+              </CardContent>
+              
         
+              <CardFooter><p className="font-semibold text-orange-500">200 zł / 80 minut</p></CardFooter>
+             
+            </Card>
+            </Link>
+          </div>
+
+          <div className="p-2 mb-2 space-x-2">
+            <Link href="/warsztaty" className="no-underline">
+              <Card>
+              
+              <CardHeader>
+              <CardTitle>Warsztaty</CardTitle>
+              </CardHeader>
+              <CardContent>
+              <p className="text-gray-500">
+              Zajęcia grupowe mogą być uzupełnieniem do procesu terapeutycznego albo odpowiadać na konkretne zapotrzebowania uczestników. Warsztat odbywa się przy zgłoszeniu co najmniej 8 osób. W wypadku większej grupy, powyżej 20 osób, jest możliwość rozdzielenia zajęć na kilka spotkań w osobnych terminach. Propozycje warsztatów przedtawiam poniżej.
+                </p>
+              </CardContent>
+              
+        
+              <CardFooter><p className="font-semibold text-orange-500">200 zł / 80 minut</p></CardFooter>
+             
+            </Card>
+            </Link>
+          </div>
+
+          <div className="bg-indigo-100 font-semibold text-center p-4 m-4">
+          <h2 className="pb-2">Przykłady warsztatów</h2>
+          
+          
           <Carousel orientation="vertical">
-          <CarouselContent className="">
-
-          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-sm space-x-4">
-          <Image
-            src="/obr/sc3.jpg"
-            alt="My Logo"
-            className="mx-auto mb-2 rounded-lg"
-            width={100}
-            height={1}
-            priority
-            />
-
-          <h3 className="text-center font-bold mb-4">Gra z symbolami</h3>
-          <p className="">Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
           
+        <CarouselContent className="md:basis-1/2 lg:basis-1/3">
+          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+
+          <div className="">
+            <Link href="/warsztaty" className="no-underline">
+             
+            <Card>
+            <CardHeader>
+              <CardTitle><h2>Gra z symbolami</h2></CardTitle>
+              <CardDescription>
+              <p className="text-gray-500">Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
+              </CardDescription>
+             </CardHeader>
+            </Card>
+            </Link>
           </div>
           
           </CarouselItem>
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-sm space-x-4">
-          <Image
-            src="/obr/sandplay4.jpg"
-            alt="My Logo"
-            className="mx-auto mb-2 rounded-lg"
-            width={100}
-            height={1}
-            priority
-            />
-
-          <h3 className="text-center font-bold mb-4">Zabawa w piaskownicy</h3>
-          <p className="">Warsztaty symboliczne przy użyciu piasku.</p>
+          
+          <div className="">
+            <Link href="/warsztaty" className="no-underline">
+              <Card>
+              <CardHeader>
+                <CardTitle><h2>Zabawa w piaskownicy</h2></CardTitle>
+                <CardDescription>
+                <p className="text-gray-500">Warsztaty symboliczne przy użyciu piasku.</p>
+                </CardDescription>
+              </CardHeader>
+              </Card>
+            </Link>
           </div>
+
           </CarouselItem>
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 rounded-md shadow-sm space-x-4">
-          <Image
-            src="/obr/sklep0.jpg"
-            alt="My Logo"
-            className="mx-auto mb-2 rounded-lg"
-            width={100}
-            height={1}
-            priority
-            />
 
-          <h3 className="text-center font-bold mb-4">Sklep z maskami</h3>
-          <p className="">Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.
-          </p>
-          </div>
+          <div className="">
+            <Link href="/warsztaty" className="no-underline">
+            <Card>
+              <CardHeader>
+                <CardTitle><h2>Sklep z maskami</h2></CardTitle>
+                <CardDescription>
+                <p className="text-gray-500">Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.</p>
+                </CardDescription>
+              </CardHeader>
+                  </Card>
+                  </Link>
+                </div>
           </CarouselItem>
+         </CarouselContent>
+          </Carousel>
 
-        </CarouselContent>
-      </Carousel>
 
+          </div>
+
+
+
+      </div>
+      
     </div>
-    </div>
+
+      
 
     </div>
 
@@ -171,17 +230,32 @@ export default function Home() {
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-4 mb-4 space-x-4">
+          <Card>
+            <CardHeader>
+              <CardTitle>Pacjent Zero</CardTitle>
+            </CardHeader>
+            <CardContent>
+            <p>Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób, które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych, wyleczonych, zmarłych.</p>
+            </CardContent>
 
-          <h3 className="text-center font-bold mb-4">Pacjent Zero</h3>
-          
-          <p className="">Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób, które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych, wyleczonych, zmarłych.</p>
+          </Card>
           </div>
           </CarouselItem>
 
           <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-4 mb-4 space-x-4">
-          <h3 className="text-center font-bold mb-4">Dwa filmy</h3>
-          <p className="">Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży", wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".</p>
+
+          <Card>
+            <CardHeader>
+              <CardTitle>Dwa filmy</CardTitle>
+            </CardHeader>
+            <CardContent>
+            <p>Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży", wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".</p>
+            </CardContent>
+
+          </Card>
+          
+
           </div>
           </CarouselItem>
 
@@ -242,7 +316,6 @@ export default function Home() {
 
     {/* <div className="grid justify-center m-4 mt-20 mb-20 lg:mx-20 xl:mx-40 2xl:mx-80">
   
-
         <div className="grid gap-4 justify-center m-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
           
           <div className="flex flex-col items-start max-w-sm p-6 bg-blue-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -258,6 +331,7 @@ export default function Home() {
                 organizacyjnej.
               </p>
             </div>
+            
             <div className="mt-auto">
               <Link href="about"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800"
@@ -280,7 +354,10 @@ export default function Home() {
                 </svg>
               </Link>
             </div>
+
           </div>
+
+          
 
           <div className="flex flex-col items-start max-w-sm p-6 border bg-blue-50 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <div>
@@ -355,6 +432,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+
+
       </div> */}
 
     </main>

@@ -74,10 +74,12 @@ export default function Warsztaty() {
             />
             <CardHeader>
               <CardTitle>Gra z symbolami</CardTitle>
-            </CardHeader>
-            <CardContent>
-            <p className="text-gray-500">Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
-            </CardContent>
+              </CardHeader>
+              <CardContent>
+              <p className="text-gray-500">Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
+              </CardContent>
+            
+
           </Card>
           </div>
           
@@ -96,15 +98,16 @@ export default function Warsztaty() {
             />
             <CardHeader>
               <CardTitle>Zabawa w piaskownicy</CardTitle>
-            </CardHeader>
-            <CardContent>
-            <p className="text-gray-500">Warsztaty symboliczne przy użyciu piasku.</p>
-            </CardContent>
+              </CardHeader>
+              <CardContent>
+              <p className="text-gray-500">Warsztaty symboliczne przy użyciu piasku.</p>
+              </CardContent>
+            
+
           </Card>
   
           </div>
         
-
           
           <div className=" p-4 mb-4 space-x-4">
           <Card>
@@ -118,10 +121,11 @@ export default function Warsztaty() {
             />
             <CardHeader>
               <CardTitle>Sklep z maskami</CardTitle>
-            </CardHeader>
-            <CardContent>
-            <p className="text-gray-500">Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.</p>
-            </CardContent>
+              </CardHeader>
+              <CardContent>
+              <p className="text-gray-500">Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.</p>
+              </CardContent>
+
           </Card>
           </div>
           
