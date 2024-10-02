@@ -21,7 +21,7 @@ import {
 export default function Home() {
   return (
 
-    <main className="container bg-slate-50 flex h-max max-w-full flex-col items-center justify-between p-4">
+    <main className="container  flex h-max max-w-full flex-col items-center justify-between p-4">
 
     <Image
       src="/xlcx.webp"
