@@ -32,7 +32,7 @@ export default function Warsztaty() {
   
       <main className="container flex h-max max-w-full flex-col items-center justify-between p-4">
         
-        <div className="mb-8 text-center text-6xl py-20">
+        <div className="p-20 mb-8 text-center text-6xl">
         <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Warsztaty</span>
         </div>
 

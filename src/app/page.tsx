@@ -52,18 +52,28 @@ export default function Home() {
 
     <div className="p-4 mb-4 rounded-md shadow-md">
     
-    <div className="mb-8 text-center text-6xl">
+    <div className="p-20 mb-8 text-center text-6xl">
     <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">OFERTA</span>
     </div>
     
-    <div className="container lg:flex lg:space-x-4 m-4 p-4  text-justify">
-      <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
+    <div className="container lg:flex lg:space-x-4 m-4 p-4 text-justify">
+      <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
 
+      <div className="p-2 mb-2 space-x-2">
+              <Image
+                src="/obr/istock0.jpg"
+                alt="My Logo"
+                className="mb-4"
+                width={1000}
+                height={500}
+                priority
+              />
 
+          </div>
 
           <div className="p-2 mb-2 space-x-2">
-            <Link href="/warsztaty" className="no-underline">
-              <Card>
+            
+              <Card className="shadow-none border-0">
    
               <CardHeader>
               <CardTitle>Psychoterapia indywidualna</CardTitle>
@@ -80,12 +90,14 @@ export default function Home() {
             </Card>
 
             
-            </Link>
+            
           </div>
 
+          
+
           <div className="p-2 mb-2 space-x-2">
-            <Link href="/warsztaty" className="no-underline">
-              <Card>
+           
+            <Card className="shadow-none border-0">
 
               <CardHeader>
               <CardTitle>Psychoterapia indywidualna (online)</CardTitle>
@@ -100,12 +112,36 @@ export default function Home() {
               <CardFooter><p className="font-semibold text-orange-500">150 zł / 50 minut</p></CardFooter>
               
             </Card>
-            </Link>
+           
           </div>
 
           <div className="p-2 mb-2 space-x-2">
-            <Link href="/warsztaty" className="no-underline">
-              <Card>
+              <Image
+                src="/obr/istock3.jpg"
+                alt="My Logo"
+                className="mb-4"
+                width={1000}
+                height={500}
+                priority
+              />
+
+          </div>
+          
+          <div className="p-2 mb-2 space-x-2">
+              <Image
+                src="/obr/kristina-litvjak-unsplash.jpg"
+                alt="My Logo"
+                className="mb-4"
+                width={1000}
+                height={500}
+                priority
+              />
+
+          </div>
+
+          <div className="p-2 mb-2 space-x-2">
+            
+            <Card className="shadow-none border-0">
               
               <CardHeader>
               <CardTitle>Terapia par</CardTitle>
@@ -120,12 +156,14 @@ export default function Home() {
               <CardFooter><p className="font-semibold text-orange-500">200 zł / 80 minut</p></CardFooter>
              
             </Card>
-            </Link>
+            
           </div>
+
+          
 
           <div className="p-2 mb-2 space-x-2">
             <Link href="/warsztaty" className="no-underline">
-              <Card>
+            <Card className="shadow-none border-0">
               
               <CardHeader>
               <CardTitle>Warsztaty</CardTitle>
@@ -143,165 +181,144 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="bg-indigo-100 font-semibold text-center p-4 m-4">
-          <h2 className="pb-2">Przykłady warsztatów</h2>
-          
-          
-          <Carousel orientation="vertical">
-          
-        <CarouselContent className="md:basis-1/2 lg:basis-1/3">
-          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-
-          <div className="">
-            <Link href="/warsztaty" className="no-underline">
-             
-            <Card>
-            <CardHeader>
-              <CardTitle><h2>Gra z symbolami</h2></CardTitle>
-              <CardDescription>
-              <p className="text-gray-500">Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
-              </CardDescription>
-             </CardHeader>
-            </Card>
-            </Link>
-          </div>
-          
-          </CarouselItem>
-
-          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          
-          <div className="">
-            <Link href="/warsztaty" className="no-underline">
-              <Card>
-              <CardHeader>
-                <CardTitle><h2>Zabawa w piaskownicy</h2></CardTitle>
-                <CardDescription>
-                <p className="text-gray-500">Warsztaty symboliczne przy użyciu piasku.</p>
-                </CardDescription>
-              </CardHeader>
-              </Card>
-            </Link>
-          </div>
-
-          </CarouselItem>
-
-          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-
-          <div className="">
-            <Link href="/warsztaty" className="no-underline">
-            <Card>
-              <CardHeader>
-                <CardTitle><h2>Sklep z maskami</h2></CardTitle>
-                <CardDescription>
-                <p className="text-gray-500">Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.</p>
-                </CardDescription>
-              </CardHeader>
-                  </Card>
-                  </Link>
-                </div>
-          </CarouselItem>
-         </CarouselContent>
-          </Carousel>
-
+          <div className="p-2 mb-2 space-x-2">
+              <Image
+                src="/obr/istock4.jpg"
+                alt="My Logo"
+                className="mb-4"
+                width={1000}
+                height={500}
+                priority
+              />
 
           </div>
-
-
 
       </div>
       
-    </div>
+      </div>
 
       
 
     </div>
 
     <div className="p-4 mb-4 rounded-md shadow-md">
-
-    <div className="mb-8 text-center text-6xl">
+    <Link href="/blog" className="no-underline">
+    <div className="p-20 mb-8 text-center text-6xl">
     <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Blog</span>
     </div>
-
-  
+    </Link>
 
     <div className="container lg:flex lg:space-x-4 m-4 p-4  text-justify">
+
     <Carousel>
-        <CarouselContent className="md:basis-1/2 lg:basis-1/3">
-
-          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 space-x-4">
-          <Card>
-            <CardHeader>
-              <CardTitle>Pacjent Zero</CardTitle>
-            </CardHeader>
-            <CardContent>
-            <p>Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób, które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych, wyleczonych, zmarłych.</p>
-            </CardContent>
-
-          </Card>
-          </div>
+        <CarouselContent className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3 mx-4">
+        
+          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
+            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+              <CardHeader>
+                <CardTitle>Pacjent Zero</CardTitle>
+                <CardDescription>26.04.2020 r.</CardDescription>
+              </CardHeader>
+              
+              <CardContent>
+              Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób,
+              które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych,
+                wyleczonych, zmarłych.
+              </CardContent>
+            </Card>
           </CarouselItem>
-
-          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 space-x-4">
-
-          <Card>
-            <CardHeader>
-              <CardTitle>Dwa filmy</CardTitle>
-            </CardHeader>
-            <CardContent>
-            <p>Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży", wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".</p>
-            </CardContent>
-
-          </Card>
           
-
-          </div>
+          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3"> 
+            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+              <CardHeader>
+                <CardTitle>Dwa filmy</CardTitle>
+                <CardDescription>10.01.2020 r.</CardDescription>
+              </CardHeader>
+              <CardContent>
+              Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży",
+                wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".
+              </CardContent>
+            </Card>
           </CarouselItem>
 
-          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 space-x-4">
-          <h3 className="text-center font-bold mb-4">Nieświadomość indywidualna i zbiorowa</h3>
-          <p className="">Wystąpienie na kongresie "Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.</p>
-          </div>
+          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
+            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+              <CardHeader>
+                <CardTitle>Nieświadomość indywidualna i zbiorowa</CardTitle>
+                <CardDescription>17.11.2019 r.</CardDescription>
+              </CardHeader>
+              <CardContent>
+              Wystąpienie na kongresie "Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.
+              </CardContent>
+            </Card>
           </CarouselItem>
 
-          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 space-x-4">
-          <h3 className="text-center font-bold mb-4">Golem: archetypowy mit czy miejska legenda?</h3>
-          <p className="">Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar.</p>
-
-
-          </div>
+          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
+            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+                <CardHeader>
+                  <CardTitle>Golem: archetypowy mit czy miejska legenda?</CardTitle>
+                  <CardDescription>10.06.2018 r.</CardDescription>
+                </CardHeader>
+                <CardContent>
+                Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar.
+                </CardContent>
+              </Card>        
           </CarouselItem>
 
-          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 mb-4 space-x-4">
-          <h3 className="text-center font-bold mb-4">Sny a nieświadomy sens</h3>
-          <p className="">W rozdziale „Podróże” we książce „Wspomnienia, sny, myśli” C.G. Jung przytoczył sen, który miał podczas podróży do Tunisu.</p>
-
-
-          </div>
+          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
+            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+                <CardHeader>
+                  <CardTitle>Mistrz odzywa się tylko raz</CardTitle>
+                  <CardDescription>08.06.2017 r.</CardDescription>
+                </CardHeader>
+                <CardContent>
+                Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar. 
+                Powiedziałem, że zakupiłem ją dawno temu w pewnym mieście. Pacjentka słysząc moją odpowiedź, wydała się zaskoczona.
+                „Czy Pan to robi specjalnie ?” – spytała.
+                </CardContent>
+              </Card>        
           </CarouselItem>
 
-          <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-          <div className="p-4 b-4 rounded-md shadow-sm space-x-4">
-          <h3 className="text-center font-bold mb-4">Co oznacza Lechaim ?</h3>
-          <p className="">„Lechaim !” To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie „Za życie!”.
-          </p>
-          </div>
+          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
+
+            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+                <CardHeader>
+                  <CardTitle>Sny a nieświadomy sen</CardTitle>
+                  <CardDescription>07.05.2017 r.</CardDescription>
+                </CardHeader>
+                <CardContent>
+                W rozdziale „Podróże” we książce „Wspomnienia, sny, myśli” C.G. Jung
+                przytoczył sen, który miał podczas podróży do Tunisu.
+                </CardContent>
+              </Card>  
           </CarouselItem>
+
+
+          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
+          
+          <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+                <CardHeader>
+                  <CardTitle>Co oznacza Lechaim ?</CardTitle>
+                  <CardDescription>16.03.2017 r.</CardDescription>
+                </CardHeader>
+                <CardContent>
+                „Lechaim !” To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie „Za życie!”.
+                </CardContent>
+              </Card> 
+          </CarouselItem>
+
+
 
         </CarouselContent>
     </Carousel>
-
+    
     </div>
 
     </div>
 
 
     <div className="container p-4 mb-4 rounded-md shadow-md">
-    <div className="mb-8 text-center text-6xl">
+    <div className="p-20 mb-8 text-center text-6xl">
     <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Kontakt</span>
     </div>
 
@@ -314,128 +331,7 @@ export default function Home() {
 
     </div>
 
-    {/* <div className="grid justify-center m-4 mt-20 mb-20 lg:mx-20 xl:mx-40 2xl:mx-80">
-  
-        <div className="grid gap-4 justify-center m-4 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
-          
-          <div className="flex flex-col items-start max-w-sm p-6 bg-blue-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <div>
-              <Link href="about">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">
-                  O nas
-                </h5>
-              </Link>
-              <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">
-                Poczytaj o historii powstania stowarzyszenia "OSA",
-                najciekawszych wydarzeniach, sprawozdaniach i strukturze
-                organizacyjnej.
-              </p>
-            </div>
-            
-            <div className="mt-auto">
-              <Link href="about"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800"
-              >
-                Sprawdź
-                <svg
-                  className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </Link>
-            </div>
-
-          </div>
-
-          
-
-          <div className="flex flex-col items-start max-w-sm p-6 border bg-blue-50 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <div>
-              <Link href="projekty">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">
-                  Projekty
-                </h5>
-              </Link>
-              <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">
-                Aktualności z działalności stowarzyszenia "OSA": realizowane
-                projekty, ważne komunikaty, współpraca i możliwość
-                dofinansowania działalności stowarzyszenia.
-              </p>
-            </div>
-            <div className="mt-auto">
-              <Link href="projekty"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800"
-              >
-                Sprawdź
-                <svg
-                  className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </Link>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-start max-w-sm p-6 bg-blue-50 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <div>
-              <Link href="wiedza">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-slate-500">
-                  Wiedza
-                </h5>
-              </Link>
-              <p className="mb-3 font-normal text-gray-700 dark:text-slate-300">
-                Zapoznaj się z najważniejszą terminologią dotyczącą zjawiska
-                mobbingu.
-              </p>
-            </div>
-            <div className="mt-auto">
-              <Link href="wiedza"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 hover:bg-blue-800 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-blue-800"
-              >
-                Sprawdź
-                <svg
-                  className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 10"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                  />
-                </svg>
-              </Link>
-            </div>
-          </div>
-        </div>
-
-
-
-      </div> */}
+   
 
     </main>
   );
