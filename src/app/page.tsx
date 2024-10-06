@@ -223,16 +223,16 @@ export default function Home() {
     <div className="m-4 p-4 text-justify">
 
     <Carousel>
-        <CarouselContent className="">
+        <CarouselContent className="p-5">
         
-          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
+          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
           <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
             <div>
-              <h2 className="text-xl font-semibold">Pacjent Zero</h2>
+              <h1 className="font-semibold">Pacjent Zero</h1>
               <p className="text-sm text-gray-500">26.04.2020 r.</p>
             </div>
             
-            <div className="mt-2">
+            <div className="mt-5">
               <p>
               Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób,
               które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych,
@@ -242,13 +242,13 @@ export default function Home() {
             </div>
           </CarouselItem>
           
-          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3"> 
+          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3"> 
             <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
               <div>
-                <h2 className="text-xl font-semibold">Dwa filmy</h2>
+                <h1 className="font-semibold">Dwa filmy</h1>
                 <p className="text-sm text-gray-500">10.01.2020 r.</p>
               </div>
-              <div className="mt-2">
+              <div className="mt-5">
                 <p>
                 Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży",
                   wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".
@@ -257,37 +257,37 @@ export default function Home() {
             </div>
           </CarouselItem>
 
-          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
+            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
               <div>
-                <h2 className="text-xl font-semibold">Nieświadomość indywidualna i zbiorowa</h2>
+                <h1 className="font-semibold">Nieświadomość indywidualna i zbiorowa</h1>
                 <p className="text-sm text-gray-500">17.11.2019 r.</p>
               </div>
-              <div className="mt-2">
+              <div className="mt-5">
               <p>Wystąpienie na kongresie "Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.</p>
               </div>
             </div>
           </CarouselItem>
 
-          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
+            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
                 <div>
-                  <h2 className="text-xl font-semibold">Golem: archetypowy mit czy miejska legenda?</h2>
+                  <h1 className="font-semibold">Golem: archetypowy mit czy miejska legenda?</h1>
                   <p className="text-sm text-gray-500">10.06.2018 r.</p>
                 </div>
-                <div className="mt-2">
+                <div className="mt-5">
                   <p>Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar.</p>
                 </div>
               </div>        
           </CarouselItem>
 
-          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
+            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
                 <div>
-                  <h2 className="text-xl font-semibold">Mistrz odzywa się tylko raz</h2>
+                  <h1 className="font-semibold">Mistrz odzywa się tylko raz</h1>
                   <p className="text-sm text-gray-500">08.06.2017 r.</p>
                 </div>
-                <div className="mt-2">
+                <div className="mt-5">
                 Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar. 
                 Powiedziałem, że zakupiłem ją dawno temu w pewnym mieście. Pacjentka słysząc moją odpowiedź, wydała się zaskoczona.
                 „Czy Pan to robi specjalnie ?" – spytała.
@@ -295,14 +295,14 @@ export default function Home() {
               </div>        
           </CarouselItem>
 
-          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
+          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
 
-            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
                 <div>
-                  <h2 className="text-xl font-semibold">Sny a nieświadomy sen</h2>
+                  <h1 className="font-semibold">Sny a nieświadomy sen</h1>
                   <p className="text-sm text-gray-500">07.05.2017 r.</p>
                 </div>
-                <div className="mt-2">
+                <div className="mt-5">
                   <p>W rozdziale „Podróże" we książce „Wspomnienia, sny, myśli" C.G. Jung
                   przytoczył sen, który miał podczas podróży do Tunisu.</p>
                 </div>
@@ -310,14 +310,14 @@ export default function Home() {
           </CarouselItem>
 
 
-          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
+          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
           
-          <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+          <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
                 <div>
-                  <h2 className="text-xl font-semibold">Co oznacza Lechaim ?</h2>
+                  <h1 className="font-semibold">Co oznacza Lechaim ?</h1>
                   <p className="text-sm text-gray-500">16.03.2017 r.</p>
                 </div>
-                <div className="mt-2">
+                <div className="mt-5">
                   <p>„Lechaim !" To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie „Za życie!".</p>
                 </div>
               </div> 
