@@ -52,13 +52,13 @@ export default function Home() {
     <Link href="/blog" className="no-underline font-bold text-orange-500">Bio</Link>
     </div>
 
-    <div className="p-4 mb-4 rounded-md shadow-md">
+    <div className="container p-4 mb-4 rounded-md shadow-md">
     
     <div className="p-20 mb-8 text-center text-6xl">
     <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">OFERTA</span>
     </div>
     
-    <div className="container lg:flex lg:space-x-4 m-4 p-4 text-justify">
+    <div className="lg:flex lg:space-x-4 m-4 p-4 text-justify">
       <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
 
       <div className="p-2 mb-2 space-x-2">
