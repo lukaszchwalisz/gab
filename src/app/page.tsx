@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import { Button } from "@/components/ui/button"
+import { Plus } from "lucide-react"
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -85,6 +87,8 @@ export default function Home() {
               </CardContent>
               
 
+              
+
               <CardFooter><p className="font-semibold text-orange-500">150 zł / 50 minut</p></CardFooter>
 
             </Card>
@@ -162,7 +166,7 @@ export default function Home() {
           
 
           <div className="p-2 mb-2 space-x-2">
-            <Link href="/warsztaty" className="no-underline">
+            
             <Card className="shadow-none border-0">
               
               <CardHeader>
@@ -174,11 +178,18 @@ export default function Home() {
                 </p>
               </CardContent>
               
-        
+              <CardFooter>
+                <Link href="/warsztaty" className="no-underline">
+                <Button variant="outline" className="text-md text-orange-500">
+                <Plus className="mr-2 h-4 w-4" /> Sprawdź propozycje warsztatów
+                </Button>
+                </Link>
+              </CardFooter>
+
               <CardFooter><p className="font-semibold text-orange-500">200 zł / 80 minut</p></CardFooter>
              
             </Card>
-            </Link>
+            
           </div>
 
           <div className="p-2 mb-2 space-x-2">
