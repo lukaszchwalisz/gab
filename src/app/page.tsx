@@ -180,7 +180,7 @@ export default function Home() {
               
               <CardFooter>
                 <Link href="/warsztaty" className="no-underline">
-                <Button variant="outline" className="text-md text-orange-500">
+                <Button variant="outline" className="text-md">
                 <Plus className="mr-2 h-4 w-4" /> Sprawdź propozycje warsztatów
                 </Button>
                 </Link>
@@ -212,110 +212,115 @@ export default function Home() {
 
     </div>
 
-    <div className="p-4 mb-4 rounded-md shadow-md">
-    <Link href="/blog" className="no-underline">
-    <div className="p-20 mb-8 text-center text-6xl">
-    <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Blog</span>
-    </div>
-    </Link>
+    <div className="container p-4 mb-4 rounded-md shadow-md">
 
-    <div className="container lg:flex lg:space-x-4 m-4 p-4  text-justify">
+        <Link href="/blog" className="no-underline">
+        <div className="p-20 mb-8 text-center text-6xl">
+        <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Blog</span>
+        </div>
+        </Link>
+
+    <div className="m-4 p-4 text-justify">
 
     <Carousel>
-        <CarouselContent className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3 mx-4">
+        <CarouselContent className="">
         
-          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
-            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
-              <CardHeader>
-                <CardTitle>Pacjent Zero</CardTitle>
-                <CardDescription>26.04.2020 r.</CardDescription>
-              </CardHeader>
-              
-              <CardContent>
+          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
+          <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
+            <div>
+              <h2 className="text-xl font-semibold">Pacjent Zero</h2>
+              <p className="text-sm text-gray-500">26.04.2020 r.</p>
+            </div>
+            
+            <div className="mt-2">
+              <p>
               Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób,
               które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych,
-                wyleczonych, zmarłych.
-              </CardContent>
-            </Card>
+              wyleczonych, zmarłych.
+              </p>
+            </div>
+            </div>
           </CarouselItem>
           
-          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3"> 
-            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
-              <CardHeader>
-                <CardTitle>Dwa filmy</CardTitle>
-                <CardDescription>10.01.2020 r.</CardDescription>
-              </CardHeader>
-              <CardContent>
-              Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży",
-                wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".
-              </CardContent>
-            </Card>
+          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3"> 
+            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
+              <div>
+                <h2 className="text-xl font-semibold">Dwa filmy</h2>
+                <p className="text-sm text-gray-500">10.01.2020 r.</p>
+              </div>
+              <div className="mt-2">
+                <p>
+                Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży",
+                  wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".
+                </p>
+              </div>
+            </div>
           </CarouselItem>
 
-          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
-            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
-              <CardHeader>
-                <CardTitle>Nieświadomość indywidualna i zbiorowa</CardTitle>
-                <CardDescription>17.11.2019 r.</CardDescription>
-              </CardHeader>
-              <CardContent>
-              Wystąpienie na kongresie "Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.
-              </CardContent>
-            </Card>
+          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
+            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+              <div>
+                <h2 className="text-xl font-semibold">Nieświadomość indywidualna i zbiorowa</h2>
+                <p className="text-sm text-gray-500">17.11.2019 r.</p>
+              </div>
+              <div className="mt-2">
+              <p>Wystąpienie na kongresie "Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.</p>
+              </div>
+            </div>
           </CarouselItem>
 
-          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
-            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
-                <CardHeader>
-                  <CardTitle>Golem: archetypowy mit czy miejska legenda?</CardTitle>
-                  <CardDescription>10.06.2018 r.</CardDescription>
-                </CardHeader>
-                <CardContent>
-                Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar.
-                </CardContent>
-              </Card>        
+          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
+            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+                <div>
+                  <h2 className="text-xl font-semibold">Golem: archetypowy mit czy miejska legenda?</h2>
+                  <p className="text-sm text-gray-500">10.06.2018 r.</p>
+                </div>
+                <div className="mt-2">
+                  <p>Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar.</p>
+                </div>
+              </div>        
           </CarouselItem>
 
-          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
-            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
-                <CardHeader>
-                  <CardTitle>Mistrz odzywa się tylko raz</CardTitle>
-                  <CardDescription>08.06.2017 r.</CardDescription>
-                </CardHeader>
-                <CardContent>
+          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
+            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+                <div>
+                  <h2 className="text-xl font-semibold">Mistrz odzywa się tylko raz</h2>
+                  <p className="text-sm text-gray-500">08.06.2017 r.</p>
+                </div>
+                <div className="mt-2">
                 Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar. 
                 Powiedziałem, że zakupiłem ją dawno temu w pewnym mieście. Pacjentka słysząc moją odpowiedź, wydała się zaskoczona.
-                „Czy Pan to robi specjalnie ?” – spytała.
-                </CardContent>
-              </Card>        
+                „Czy Pan to robi specjalnie ?" – spytała.
+                </div>
+              </div>        
           </CarouselItem>
 
-          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
+          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
 
-            <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
-                <CardHeader>
-                  <CardTitle>Sny a nieświadomy sen</CardTitle>
-                  <CardDescription>07.05.2017 r.</CardDescription>
-                </CardHeader>
-                <CardContent>
-                W rozdziale „Podróże” we książce „Wspomnienia, sny, myśli” C.G. Jung
-                przytoczył sen, który miał podczas podróży do Tunisu.
-                </CardContent>
-              </Card>  
+            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+                <div>
+                  <h2 className="text-xl font-semibold">Sny a nieświadomy sen</h2>
+                  <p className="text-sm text-gray-500">07.05.2017 r.</p>
+                </div>
+                <div className="mt-2">
+                  <p>W rozdziale „Podróże" we książce „Wspomnienia, sny, myśli" C.G. Jung
+                  przytoczył sen, który miał podczas podróży do Tunisu.</p>
+                </div>
+              </div>  
           </CarouselItem>
 
 
-          <CarouselItem className="sm:basis-1/1 md:basis-1/2 lg:basis-1/3">
+          <CarouselItem className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
           
-          <Card className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
-                <CardHeader>
-                  <CardTitle>Co oznacza Lechaim ?</CardTitle>
-                  <CardDescription>16.03.2017 r.</CardDescription>
-                </CardHeader>
-                <CardContent>
-                „Lechaim !” To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie „Za życie!”.
-                </CardContent>
-              </Card> 
+          <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0">
+                <div>
+                  <h2 className="text-xl font-semibold">Co oznacza Lechaim ?</h2>
+                  <p className="text-sm text-gray-500">16.03.2017 r.</p>
+                </div>
+                <div className="mt-2">
+                  <p>„Lechaim !" To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie „Za życie!".</p>
+                </div>
+              </div> 
           </CarouselItem>
 
 
