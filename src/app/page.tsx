@@ -35,7 +35,7 @@ export default function Home() {
     />
 
     {/* <h1 className="m-4 font-bold text-lime-500">O MNIE</h1> */}
-    <div className="prose prose-base m-4 text-justify  rounded-md shadow-sm  p-4">
+    <div className="prose prose-base text-justify rounded-md shadow-sm">
 
       <p>Cześć! Nazywam się <span className="font-bold text-orange-500">Łukasz Chwalisz</span>. Jestem psychologiem, absolwentem Uniwersytetu im. Adama Mickiewicza w Poznaniu, Wydział Nauk Społecznych, Instytut Psychologii (obecnie Wydział Psychologii i Kogniwistyki UAM) (2006 r.). Pracuję jako psychoterapeuta. Chciałbym zaprosić Państwa do zapoznania się z ofertę mojej pracy w ramach prywatnego gabnetu psychologicznego.
       </p>
