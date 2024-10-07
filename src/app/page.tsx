@@ -54,7 +54,7 @@ export default function Home() {
 
     <div className="container p-4 mb-4 rounded-md shadow-md">
     
-    <div className="p-20 mb-8 text-center text-6xl">
+    <div className="pt-20 pb-20 text-center text-6xl">
     <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">OFERTA</span>
     </div>
     
@@ -215,12 +215,12 @@ export default function Home() {
     <div className="container p-4 mb-4 rounded-md shadow-md">
 
         <Link href="/blog" className="no-underline">
-        <div className="p-20 mb-8 text-center text-6xl">
+        <div className="pt-20 pb-20 text-center text-6xl">
         <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Blog</span>
         </div>
         </Link>
 
-    <div className="m-4 p-4 text-justify">
+    <div className="text-justify">
 
     <Carousel>
         <CarouselContent className="p-5">
@@ -334,7 +334,7 @@ export default function Home() {
 
 
     <div className="container p-4 mb-4 rounded-md shadow-md">
-    <div className="p-20 mb-8 text-center text-6xl">
+    <div className="pt-20 pb-20 text-center text-6xl">
     <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Kontakt</span>
     </div>
 
