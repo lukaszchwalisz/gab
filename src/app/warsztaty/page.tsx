@@ -9,15 +9,7 @@
     BreadcrumbSeparator,
   } from "@/components/ui/breadcrumb"
 
-  import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-  } from "@/components/ui/card"
-
+  
   import Image from "next/image";
   import Link from "next/link";
   import type { Metadata } from "next";
@@ -63,70 +55,61 @@ export default function Warsztaty() {
 
           <div className="p-4 mb-4 space-x-4">
           
-          <Card>
-          <Image
-            src="/obr/sc3.jpg"
-            alt="My Logo"
-            className="mx-auto mb-2 p-5"
-            width={300}
-            height={100}
-            priority
+            <Image
+              src="/obr/sc3.jpg"
+              alt="Gra z symbolami"
+              className="mb-5 p-5 rounded-md shadow-md"
+              width={300}
+              height={100}
+              priority
             />
-            <CardHeader>
-              <CardTitle>Gra z symbolami</CardTitle>
-              </CardHeader>
-              <CardContent>
-              <p className="text-gray-500">Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
-              </CardContent>
+            <Link href="/" className="no-underline hover:underline">  
+            <div className="mb-2"> 
+              <h1 className="font-semibold">Gra z symbolami</h1>
+            </div>
+              <p className="text-gray-500 text-sm">Zabawa polegająca na tworzeniu i intepretowaniu symbolicznej rzeki.</p>
+            </Link>
             
-
-          </Card>
           </div>
           
 
           
           <div className="p-4 mb-4 space-x-4">
   
-          <Card>
-          <Image
-            src="/obr/sandplay4.jpg"
-            alt="My Logo"
-            className="mx-auto mb-2 p-5"
-            width={250}
-            height={100}
-            priority
+            <Image
+              src="/obr/sand.png"
+              alt="Zabawa w piaskownicy"
+              className="mb-5 p-5 rounded-md shadow-md"
+              width={300}
+              height={100}
+              priority
             />
-            <CardHeader>
-              <CardTitle>Zabawa w piaskownicy</CardTitle>
-              </CardHeader>
-              <CardContent>
-              <p className="text-gray-500">Warsztaty symboliczne przy użyciu piasku.</p>
-              </CardContent>
-            
-
-          </Card>
+            <Link href="/" className="no-underline hover:underline"> 
+            <div className="mb-2">
+              <h1 className="font-semibold">Zabawa w piaskownicy</h1>
+            </div>
+              <p className="text-gray-500 text-sm">Warsztaty symboliczne przy użyciu piasku.</p>
+            </Link>
   
           </div>
         
           
           <div className=" p-4 mb-4 space-x-4">
-          <Card>
-          <Image
-            src="/obr/sklep0.jpg"
-            alt="My Logo"
-            className="mx-auto mb-2 p-5"
-            width={200}
-            height={100}
-            priority
-            />
-            <CardHeader>
-              <CardTitle>Sklep z maskami</CardTitle>
-              </CardHeader>
-              <CardContent>
-              <p className="text-gray-500">Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy owbec hipotetycznej sytuacji mobbignowej w pracy.</p>
-              </CardContent>
-
-          </Card>
+          
+              <Image
+                src="/obr/mask.png"
+                alt="Sklep z maskami"
+                className="mb-5 p-5 rounded-md shadow-md"
+                width={300}
+                height={100}
+                priority
+              />
+              <Link href="/" className="no-underline hover:underline"> 
+              <div className="mb-2">
+                <h1 className="font-semibold">Sklep z maskami</h1>
+              </div>
+                <p className="text-gray-500 text-sm">Gra negocjacyjna nastawiona na wyćwiczenie własnej postawy wobec hipotetycznej sytuacji mobbignowej w pracy.</p>
+              </Link>
           </div>
           
           
