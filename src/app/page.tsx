@@ -35,9 +35,9 @@ export default function Home() {
     />
 
     {/* <h1 className="m-4 font-bold text-lime-500">O MNIE</h1> */}
-    <div className="prose prose-base text-justify rounded-md shadow-sm">
+    <div className="prose prose-base text-justify m-2">
 
-      <p>Cześć! Nazywam się <span className="font-bold text-orange-500">Łukasz Chwalisz</span>. Jestem psychologiem, absolwentem Uniwersytetu im. Adama Mickiewicza w Poznaniu, Wydział Nauk Społecznych, Instytut Psychologii (obecnie Wydział Psychologii i Kogniwistyki UAM) (2006 r.). Pracuję jako psychoterapeuta. Chciałbym zaprosić Państwa do zapoznania się z ofertę mojej pracy w ramach prywatnego gabnetu psychologicznego.
+      <p  className="text-gray-500 m-2 p-4 sm:p-0 md:p-0 lg:p-0 2xl:p-0">Cześć! Nazywam się <span className="font-bold text-orange-500">Łukasz Chwalisz</span>. Jestem psychologiem, absolwentem Uniwersytetu im. Adama Mickiewicza w Poznaniu, Wydział Nauk Społecznych, Instytut Psychologii (obecnie Wydział Psychologii i Kogniwistyki UAM) (2006 r.). Pracuję jako psychoterapeuta. Chciałbym zaprosić Państwa do zapoznania się z ofertę mojej pracy w ramach prywatnego gabinetu psychologicznego.
       </p>
       {/* <p> Początki mojej pracy zawodowej to staż w Hostelu Interwencji Kryzysowej w Chybach (koło Poznania), a potem praca w Punkcie Interwencji Kryzysowej w Poznaniu (2007/2008). Kolejne doświadczenia zdobywałem w ośrodkach pomocy osobom potrzebującym, w różnych stadiach zaburzeń psychicznych i niepełnosprawności intelektualnej.</p>
 
@@ -49,7 +49,7 @@ export default function Home() {
 
       <p>Od 2022 odbywam szkolenie w ramach terapii systemowej organizowane przez Wielkopolskie Towarzystwo Terapii Systemowej. Dotychczas ukończyłem kurs podstawowy. Uczestniczę w superwizji grupowej w ramach podejścia systemowego.</p> */}
     
-    <Link href="/blog" className="no-underline font-bold text-orange-500">Bio</Link>
+    <Link href="/blog" className="no-underline font-bold text-orange-500 m-2 p-4 sm:p-0 md:p-0 lg:p-0 2xl:p-0">Bio</Link>
     </div>
 
     <div className="container p-4 mb-4 rounded-md shadow-md">
@@ -65,7 +65,7 @@ export default function Home() {
               <Image
                 src="/obr/istock0.jpg"
                 alt="My Logo"
-                className="mb-4"
+                className="mb-4 p-2 sm:p-0 md:p-0 lg:p-0 2xl:p-0"
                 width={1000}
                 height={500}
                 priority
@@ -73,9 +73,9 @@ export default function Home() {
 
           </div>
 
-          <div className="p-2 mb-2 space-x-2">
+          <div className="p-1 mb-2 space-x-2">
             
-              <Card className="shadow-none border-0">
+            <Card className="shadow-none border-0">
    
               <CardHeader>
               <CardTitle>Psychoterapia indywidualna</CardTitle>
@@ -85,15 +85,10 @@ export default function Home() {
               Psychoterapia osobowości, analiza treści nieświadomych, mechanizmów obronych, symboliki zawartej w snach, a także funkcjonowania w systemie rodzinnym, analiza genogramu, motywów postępowania wewnętrznęgo i zewnętrznego na różnych poziomach.
                 </p>
               </CardContent>
-              
-
-              
 
               <CardFooter><p className="font-semibold text-orange-500">150 zł / 50 minut</p></CardFooter>
 
             </Card>
-
-            
             
           </div>
 
@@ -123,7 +118,7 @@ export default function Home() {
               <Image
                 src="/obr/istock3.jpg"
                 alt="My Logo"
-                className="mb-4"
+                className="mb-4 p-2 sm:p-0 md:p-0 lg:p-0 2xl:p-0"
                 width={1000}
                 height={500}
                 priority
@@ -135,7 +130,7 @@ export default function Home() {
               <Image
                 src="/obr/kristina-litvjak-unsplash.jpg"
                 alt="My Logo"
-                className="mb-4"
+                className="mb-4 p-2 sm:p-0 md:p-0 lg:p-0 2xl:p-0"
                 width={1000}
                 height={500}
                 priority
@@ -196,7 +191,7 @@ export default function Home() {
               <Image
                 src="/obr/istock4.jpg"
                 alt="My Logo"
-                className="mb-4"
+                className="mb-4 p-2 sm:p-0 md:p-0 lg:p-0 2xl:p-0"
                 width={1000}
                 height={500}
                 priority
@@ -233,7 +228,7 @@ export default function Home() {
             </div>
             
             <div className="mt-5">
-              <p>
+            <p className="text-gray-500">
               Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób,
               które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych,
               wyleczonych, zmarłych.
@@ -249,7 +244,7 @@ export default function Home() {
                 <p className="text-sm text-gray-500">10.01.2020 r.</p>
               </div>
               <div className="mt-5">
-                <p>
+              <p className="text-gray-500">
                 Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży",
                   wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".
                 </p>
@@ -264,7 +259,9 @@ export default function Home() {
                 <p className="text-sm text-gray-500">17.11.2019 r.</p>
               </div>
               <div className="mt-5">
-              <p>Wystąpienie na kongresie "Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.</p>
+              <p className="text-gray-500">
+                Wystąpienie na kongresie "Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.
+                </p>
               </div>
             </div>
           </CarouselItem>
@@ -276,7 +273,9 @@ export default function Home() {
                   <p className="text-sm text-gray-500">10.06.2018 r.</p>
                 </div>
                 <div className="mt-5">
-                  <p>Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar.</p>
+                <p className="text-gray-500">
+                    Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar.
+                    </p>
                 </div>
               </div>        
           </CarouselItem>
@@ -288,9 +287,11 @@ export default function Home() {
                   <p className="text-sm text-gray-500">08.06.2017 r.</p>
                 </div>
                 <div className="mt-5">
+                <p className="text-gray-500">
                 Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar. 
                 Powiedziałem, że zakupiłem ją dawno temu w pewnym mieście. Pacjentka słysząc moją odpowiedź, wydała się zaskoczona.
                 „Czy Pan to robi specjalnie ?" – spytała.
+                </p>
                 </div>
               </div>        
           </CarouselItem>
@@ -303,7 +304,8 @@ export default function Home() {
                   <p className="text-sm text-gray-500">07.05.2017 r.</p>
                 </div>
                 <div className="mt-5">
-                  <p>W rozdziale „Podróże" we książce „Wspomnienia, sny, myśli" C.G. Jung
+                <p className="text-gray-500">
+                    W rozdziale „Podróże" we książce „Wspomnienia, sny, myśli" C.G. Jung
                   przytoczył sen, który miał podczas podróży do Tunisu.</p>
                 </div>
               </div>  
@@ -318,7 +320,8 @@ export default function Home() {
                   <p className="text-sm text-gray-500">16.03.2017 r.</p>
                 </div>
                 <div className="mt-5">
-                  <p>„Lechaim !" To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie „Za życie!".</p>
+                <p className="text-gray-500">
+                  „Lechaim !" To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie „Za życie!".</p>
                 </div>
               </div> 
           </CarouselItem>
