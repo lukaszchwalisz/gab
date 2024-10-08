@@ -75,7 +75,7 @@ export default function Home() {
 
           <div className="p-1 mb-2 space-x-2">
             
-            <Card className=" border-0">
+            <Card className="shadow-none border-0">
    
               <CardHeader>
               <CardTitle>Psychoterapia indywidualna</CardTitle>
@@ -96,7 +96,7 @@ export default function Home() {
 
           <div className="p-2 mb-2 space-x-2">
            
-            <Card className=" border-0">
+            <Card className="shadow-none border-0">
 
               <CardHeader>
               <CardTitle>Psychoterapia indywidualna (online)</CardTitle>
@@ -140,7 +140,7 @@ export default function Home() {
 
           <div className="p-2 mb-2 space-x-2">
             
-            <Card className=" border-0">
+            <Card className="shadow-none border-0">
               
               <CardHeader>
               <CardTitle>Terapia par</CardTitle>
@@ -162,7 +162,7 @@ export default function Home() {
 
           <div className="p-2 mb-2 space-x-2">
             
-            <Card className=" border-0">
+            <Card className="shadow-none border-0">
               
               <CardHeader>
               <CardTitle>Warsztaty</CardTitle>
@@ -221,7 +221,7 @@ export default function Home() {
         <CarouselContent className="p-5">
         
           <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-          <div className="hover:underline decoration-from-font  dark:hover:bg-gray-800  border-0 p-4">
+          <div className="hover:underline decoration-from-font dark:hover:bg-gray-800  border-0 p-4">
             <div>
               <h1 className="font-semibold">Pacjent Zero</h1>
               <p className="text-sm text-gray-500">26.04.2020 r.</p>
