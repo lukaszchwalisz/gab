@@ -75,7 +75,7 @@ export default function Home() {
 
           <div className="p-1 mb-2 space-x-2">
             
-            <Card className="shadow-none border-0">
+            <Card className=" border-0">
    
               <CardHeader>
               <CardTitle>Psychoterapia indywidualna</CardTitle>
@@ -96,7 +96,7 @@ export default function Home() {
 
           <div className="p-2 mb-2 space-x-2">
            
-            <Card className="shadow-none border-0">
+            <Card className=" border-0">
 
               <CardHeader>
               <CardTitle>Psychoterapia indywidualna (online)</CardTitle>
@@ -140,7 +140,7 @@ export default function Home() {
 
           <div className="p-2 mb-2 space-x-2">
             
-            <Card className="shadow-none border-0">
+            <Card className=" border-0">
               
               <CardHeader>
               <CardTitle>Terapia par</CardTitle>
@@ -162,7 +162,7 @@ export default function Home() {
 
           <div className="p-2 mb-2 space-x-2">
             
-            <Card className="shadow-none border-0">
+            <Card className=" border-0">
               
               <CardHeader>
               <CardTitle>Warsztaty</CardTitle>
@@ -221,7 +221,7 @@ export default function Home() {
         <CarouselContent className="p-5">
         
           <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-          <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
+          <div className="hover:underline decoration-from-font  dark:hover:bg-gray-800  border-0 p-4">
             <div>
               <h1 className="font-semibold">Pacjent Zero</h1>
               <p className="text-sm text-gray-500">26.04.2020 r.</p>
@@ -238,7 +238,7 @@ export default function Home() {
           </CarouselItem>
           
           <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3"> 
-            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
+            <div className="hover:underline decoration-from-font dark:hover:bg-gray-800  border-0 p-4">
               <div>
                 <h1 className="font-semibold">Dwa filmy</h1>
                 <p className="text-sm text-gray-500">10.01.2020 r.</p>
@@ -253,7 +253,7 @@ export default function Home() {
           </CarouselItem>
 
           <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
+            <div className="hover:underline decoration-from-font dark:hover:bg-gray-800  border-0 p-4">
               <div>
                 <h1 className="font-semibold">Nieświadomość indywidualna i zbiorowa</h1>
                 <p className="text-sm text-gray-500">17.11.2019 r.</p>
@@ -267,7 +267,7 @@ export default function Home() {
           </CarouselItem>
 
           <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
+            <div className="hover:underline decoration-from-font dark:hover:bg-gray-800  border-0 p-4">
                 <div>
                   <h1 className="font-semibold">Golem: archetypowy mit czy miejska legenda?</h1>
                   <p className="text-sm text-gray-500">10.06.2018 r.</p>
@@ -281,7 +281,7 @@ export default function Home() {
           </CarouselItem>
 
           <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
+            <div className="hover:underline decoration-from-font dark:hover:bg-gray-800  border-0 p-4">
                 <div>
                   <h1 className="font-semibold">Mistrz odzywa się tylko raz</h1>
                   <p className="text-sm text-gray-500">08.06.2017 r.</p>
@@ -298,7 +298,7 @@ export default function Home() {
 
           <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
 
-            <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
+            <div className="hover:underline decoration-from-font dark:hover:bg-gray-800  border-0 p-4">
                 <div>
                   <h1 className="font-semibold">Sny a nieświadomy sen</h1>
                   <p className="text-sm text-gray-500">07.05.2017 r.</p>
@@ -314,7 +314,7 @@ export default function Home() {
 
           <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
           
-          <div className="hover:bg-indigo-200 dark:hover:bg-gray-800 hover:shadow-md shadow-none border-0 p-4">
+          <div className="hover:underline decoration-from-font dark:hover:bg-gray-800  border-0 p-4">
                 <div>
                   <h1 className="font-semibold">Co oznacza Lechaim ?</h1>
                   <p className="text-sm text-gray-500">16.03.2017 r.</p>

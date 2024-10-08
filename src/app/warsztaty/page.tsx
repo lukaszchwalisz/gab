@@ -63,7 +63,7 @@ export default function Warsztaty() {
               height={100}
               priority
             />
-            <Link href="/" className="no-underline hover:underline">  
+            <Link href="/" className="no-underline hover:underline decoration-from-font">  
             <div className="mb-2"> 
               <h1 className="font-semibold">Gra z symbolami</h1>
             </div>
@@ -84,7 +84,7 @@ export default function Warsztaty() {
               height={100}
               priority
             />
-            <Link href="/" className="no-underline hover:underline"> 
+            <Link href="/" className="no-underline hover:underline decoration-from-font"> 
             <div className="mb-2">
               <h1 className="font-semibold">Zabawa w piaskownicy</h1>
             </div>
@@ -104,7 +104,7 @@ export default function Warsztaty() {
                 height={100}
                 priority
               />
-              <Link href="/" className="no-underline hover:underline"> 
+              <Link href="/" className="no-underline hover:underline decoration-from-font"> 
               <div className="mb-2">
                 <h1 className="font-semibold">Sklep z maskami</h1>
               </div>
