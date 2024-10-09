@@ -58,12 +58,12 @@ export default function Warsztaty() {
             <Image
               src="/obr/sc3.jpg"
               alt="Gra z symbolami"
-              className="mb-5 p-5 rounded-md shadow-md"
+              className="mb-5 p-5 rounded-md shadow-md dark:border-2"
               width={300}
               height={100}
               priority
             />
-            <Link href="/" className="no-underline hover:underline decoration-from-font">  
+            <Link href="/" className="no-underline hover:underline decoration-from-font dark:decoration-gray-500">  
             <div className="mb-2"> 
               <h1 className="font-semibold">Gra z symbolami</h1>
             </div>
@@ -79,12 +79,12 @@ export default function Warsztaty() {
             <Image
               src="/obr/sand.png"
               alt="Zabawa w piaskownicy"
-              className="mb-5 p-5 rounded-md shadow-md"
+              className="mb-5 p-5 rounded-md shadow-md dark:border-2"
               width={300}
               height={100}
               priority
             />
-            <Link href="/" className="no-underline hover:underline decoration-from-font"> 
+            <Link href="/" className="no-underline hover:underline decoration-from-font dark:decoration-gray-500"> 
             <div className="mb-2">
               <h1 className="font-semibold">Zabawa w piaskownicy</h1>
             </div>
@@ -99,12 +99,12 @@ export default function Warsztaty() {
               <Image
                 src="/obr/mask.png"
                 alt="Sklep z maskami"
-                className="mb-5 p-5 rounded-md shadow-md"
+                className="mb-5 p-5 rounded-md shadow-md dark:border-2"
                 width={300}
                 height={100}
                 priority
               />
-              <Link href="/" className="no-underline hover:underline decoration-from-font"> 
+              <Link href="/" className="no-underline hover:underline decoration-from-font dark:decoration-gray-500"> 
               <div className="mb-2">
                 <h1 className="font-semibold">Sklep z maskami</h1>
               </div>
