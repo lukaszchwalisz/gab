@@ -63,7 +63,7 @@ export default function Warsztaty() {
               height={100}
               priority
             />
-            <Link href="/" className="no-underline hover:underline decoration-from-font dark:decoration-gray-500">  
+            <Link href="/warsztaty/grazsymbolami" className="no-underline hover:underline decoration-from-font dark:decoration-gray-500">  
             <div className="mb-2"> 
               <h1 className="font-semibold">Gra z symbolami</h1>
             </div>
@@ -84,7 +84,7 @@ export default function Warsztaty() {
               height={100}
               priority
             />
-            <Link href="/" className="no-underline hover:underline decoration-from-font dark:decoration-gray-500"> 
+            <Link href="/warsztaty/zabawawpiaskownicy" className="no-underline hover:underline decoration-from-font dark:decoration-gray-500"> 
             <div className="mb-2">
               <h1 className="font-semibold">Zabawa w piaskownicy</h1>
             </div>
@@ -104,7 +104,7 @@ export default function Warsztaty() {
                 height={100}
                 priority
               />
-              <Link href="/" className="no-underline hover:underline decoration-from-font dark:decoration-gray-500"> 
+              <Link href="/warsztaty/sklepzmaskami" className="no-underline hover:underline decoration-from-font dark:decoration-gray-500"> 
               <div className="mb-2">
                 <h1 className="font-semibold">Sklep z maskami</h1>
               </div>
