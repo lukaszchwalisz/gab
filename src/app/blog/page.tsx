@@ -19,7 +19,7 @@
 export default function Blog() {
     return (
   
-      <main className="container  bg-slate-50 flex h-max max-w-full flex-col items-center justify-between p-4">
+      <main className="container flex h-max max-w-full flex-col items-center justify-between p-4">
         
         <div className="mb-8 text-center text-6xl py-20">
         <span className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Blog</span>
