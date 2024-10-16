@@ -274,8 +274,9 @@ export default function Home() {
                 </div>
                 <div className="mt-5">
                 <p className="text-gray-500">
-                    Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar.
-                    </p>
+                „Polscy Żydzi po odmówieniu pewnych modlitw i odbyciu postów robią ludzką postać z gliny albo mułu, a gdy wypowiedzą cudowne szemhamforas [imię Boga],
+                to człowiek ów musi ożyć. Nazywają go golem i wykorzystują jako posługacza do wszelkich prac domowych, tyle że nie wolno mu wychodzić z domu.
+                </p>
                 </div>
               </div>        
           </CarouselItem>
