@@ -97,7 +97,7 @@ export default function Warsztaty() {
           <div className="p-4 mb-4 space-x-4">
           
               <Image
-                src="/obr/mask.png"
+                src="/obr/maska.png"
                 alt="Sklep z maskami"
                 className="mb-5 rounded-md shadow-md"
                 width={300}

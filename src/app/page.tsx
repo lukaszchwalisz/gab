@@ -65,7 +65,7 @@ export default function Home() {
               <Image
                 src="/obr/istock0.jpg"
                 alt="My Logo"
-                className="mb-4 p-2 sm:p-0 md:p-0 lg:p-0 2xl:p-0"
+                className="rounded-md shadow-md"
                 width={1000}
                 height={500}
                 priority
@@ -118,7 +118,7 @@ export default function Home() {
               <Image
                 src="/obr/istock3.jpg"
                 alt="My Logo"
-                className="mb-4 p-2 sm:p-0 md:p-0 lg:p-0 2xl:p-0"
+                className="rounded-md shadow-md"
                 width={1000}
                 height={500}
                 priority
@@ -130,7 +130,7 @@ export default function Home() {
               <Image
                 src="/obr/kristina-litvjak-unsplash.jpg"
                 alt="My Logo"
-                className="mb-4 p-2 sm:p-0 md:p-0 lg:p-0 2xl:p-0"
+                className="rounded-md shadow-md"
                 width={1000}
                 height={500}
                 priority
@@ -191,7 +191,7 @@ export default function Home() {
               <Image
                 src="/obr/istock4.jpg"
                 alt="My Logo"
-                className="mb-4 p-2 sm:p-0 md:p-0 lg:p-0 2xl:p-0"
+                className="rounded-md shadow-md"
                 width={1000}
                 height={500}
                 priority

@@ -76,7 +76,7 @@ export default function SklepZMaskami() {
           <div className="p-4 mb-4 space-x-4">
           
             <Image
-              src="/obr/mask.png"
+              src="/obr/maska.png"
               alt="Gra z symbolami"
               className="rounded-md shadow-md"
               width={500}
