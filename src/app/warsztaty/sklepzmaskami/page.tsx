@@ -76,7 +76,7 @@ export default function SklepZMaskami() {
           <div className="p-4 mb-4 space-x-4">
           
             <Image
-              src="/obr/sc3.jpg"
+              src="/obr/mask.png"
               alt="Gra z symbolami"
               className="rounded-md shadow-md dark:border-2"
               width={500}
@@ -91,26 +91,32 @@ export default function SklepZMaskami() {
           
           <div className="">
   
-            <h1 className="p-2 mb-4 text-3xl font-bold text-center text-gray-800 dark:text-white">Gra z symbolami</h1>
+            <h1 className="p-2 mb-4 text-3xl font-bold text-center text-gray-800 dark:text-white">Sklep z maskami</h1>
             <p className="mb-4 text-gray-800 dark:text-white">
-              Warsztat dla ok. 8-10 osób, autorstwa analityka jungowskiego Martina Skali z Pragi. Uczestnicy warsztatu zostaja poproszeni
-              o namalowanie symbolicznej rzeki na kartce A3. Rzeka symbolizuje przepływy energii, świadomości. Wokół rzeki pojawia się drzewa,
-              góry albo same tylko kolory przedstawiające aktualny stan duszy. Kolejne etapy ćwiczenia pozwalają uczestnikom odejść od swojej
-              własnej świadomości i połączyć się ze świadomością zbiorową grupy.
+            Gra negocjacyjna rozgrywająca się w przykładowym sklepie z maskami. Zgodnie ze scenariuszem, pomimo początkowego wzrostu i rozwoju,
+            sklep zostaje przejęty przez firmą zajmującą się organizacją koncertów. W wyniku czego dochodzi do konfliktu pomiędzy dotychczasową załogą,
+            a nowym kierownictwem.
            </p>
             
            <p className="mb-4 text-gray-800 dark:text-white">
-              Techniki zastosowane podczas zajęć obejmują malowanie farbami, wycinanie z gazet bliskich sobie obrazów, postaci oraz tworzeni
-              archetypowej figury z modeliny. Na każdym etapie prowadzący zachęcają do interpretacji własnych działań i analizy procesu grupowego
-              pomiędzy uczestnikami warsztatu.
+           Każda ze stron konfliktu otrzymuje pewien zestaw informacji nie znany drugiej stronie, który może wykorzystać podczas negocjacji.
+           Jednak jaką zaplanuje strategię i jak rozegra potyczkę negocjacyjnej zależy od pomysłowości członków grupy, zagrania oraz siy liderów,
+           którzy będą przewodzili negocjacjom i mieli decydujący głos odnośnie przyjętej strategii.
           </p>
           
+          <p className="mb-4 text-gray-800 dark:text-white">
+          Prowadzący w pewnym monencie ogłasza koniec negocjacji. Teraz grupa wspólnie przystępuje do umówienie tego co zaszło podczas zadania - 
+          emocje, odczucia, dobrane argumenty, mentalizacja punktu widzenia drugiej strony itd. Bezpośrednim celem zadania nie jest wygrana w negocjacjach,
+          ale tylko możliwość zrozumienia procesów dziejących się podczas sytuacji konfliktowej oraz przygotowanie do zmierzenia się z realnymi zdarzeniami
+          w firmie na płaszczyźnie relacji międzyludzkich.
+          </p>
+
           <h2 className="mb-2 text-lg font-bold  text-gray-800 dark:text-white">Dla kogo:</h2>
           <ul className="p-3 mb-4 space-y-2 list-disc text-md text-gray-800 dark:text-white">
-            <li>osoby zainteresowane poznaniem nieświadomego procesu grupowego w ujęciu psychologii analitycznej</li>
-            <li>grupy osób biorące udział we wspólnych projektach, przedsięwzięciach</li>
-            <li>pracownicy firm i korporacji chcący pogłębić integrację i zrozumieć procedy grupowe</li> 
-            <li>członkowie rodziny, którzy chcieliby lepiej zrozumieć mechanizmy zachodzące wewnątrz grupy</li>
+            <li>firmy, korporacje planujące wprowadzić politykę poprawy relacji na lini zarząd/pracownicy - gra powinna udrożnić kanały komunikacyjne, dać realne wyobrażenie rozwoju i zarządzania konfliktem</li>
+            <li>jednostki działalności gospodarczej, w których zaistniał realny spór - gra pomoże w mentalizacji punktów widzenia stron konfliktu</li>
+            <li>osoby mobbingowane w pracy, które mogą zarówno utożsamić się z jedną ze stron, jak i próbować zrozumieć drugą stronę - zarząd, a przez to lepiej odnaleźć się w swojej sytuacji w pracy</li> 
+            <li>kandydaci na negocjatorów i mediatorów, którzy chcieliby poćwiczyć na przykładzie swoją teoretyczną wiedzę</li>
           </ul>
           
           

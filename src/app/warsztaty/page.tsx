@@ -58,7 +58,7 @@ export default function Warsztaty() {
             <Image
               src="/obr/sc3.jpg"
               alt="Gra z symbolami"
-              className="mb-5 p-5 rounded-md shadow-md dark:border-2"
+              className="mb-5 rounded-md shadow-md dark:border-2"
               width={300}
               height={100}
               priority
@@ -79,7 +79,7 @@ export default function Warsztaty() {
             <Image
               src="/obr/sand.png"
               alt="Zabawa w piaskownicy"
-              className="mb-5 p-5 rounded-md shadow-md dark:border-2"
+              className="mb-5 rounded-md shadow-md dark:border-2"
               width={300}
               height={100}
               priority
@@ -94,12 +94,12 @@ export default function Warsztaty() {
           </div>
         
           
-          <div className=" p-4 mb-4 space-x-4">
+          <div className="p-4 mb-4 space-x-4">
           
               <Image
                 src="/obr/mask.png"
                 alt="Sklep z maskami"
-                className="mb-5 p-5 rounded-md shadow-md dark:border-2"
+                className="mb-5 rounded-md shadow-md dark:border-2"
                 width={300}
                 height={100}
                 priority
