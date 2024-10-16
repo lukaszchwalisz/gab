@@ -78,7 +78,7 @@ export default function ZabawaWPiaskownicy() {
             <Image
               src="/obr/sand.png"
               alt="Gra z symbolami"
-              className="rounded-md shadow-md dark:border-2"
+              className="rounded-md shadow-md"
               width={500}
               height={100}
               priority
