@@ -15,7 +15,7 @@
   import type { Metadata } from "next";
 
   export const metadata: Metadata = {
-    title: "Gra z symbolami - Warsztaty - Gabinet Łukasz Chwalisz",
+    title: "Sklep z maskami - Warsztaty - Gabinet Łukasz Chwalisz",
     description: "Oferta warsztatów w ramach działalności gabinetu psychologicznego",
   };
 
