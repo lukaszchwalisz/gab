@@ -218,119 +218,77 @@ export default function Home() {
     <div className="text-justify">
 
     <Carousel>
-        <CarouselContent className="p-5">
-        
-          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-          <div className="hover:underline decoration-from-font dark:hover:decoration-gray-500 dark:hover:bg-gray-800 border-0 p-4">
-            <div>
-              <h1 className="font-semibold">Pacjent Zero</h1>
-              <p className="text-sm text-gray-500">26.04.2020 r.</p>
-            </div>
-            
-            <div className="mt-5">
-            <p className="text-gray-500">
-              Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób,
-              które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych,
-              wyleczonych, zmarłych.
-              </p>
-            </div>
-            </div>
-          </CarouselItem>
-          
-          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3"> 
-            <div className="hover:underline decoration-from-font dark:hover:decoration-gray-500 dark:hover:bg-gray-800   border-0 p-4">
-              <div>
-                <h1 className="font-semibold">Dwa filmy</h1>
-                <p className="text-sm text-gray-500">10.01.2020 r.</p>
-              </div>
-              <div className="mt-5">
-              <p className="text-gray-500">
-                Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli "Dwóch papieży",
-                  wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych "The Lighthouse".
-                </p>
-              </div>
-            </div>
-          </CarouselItem>
+    <CarouselContent className="p-5">
+        {[
+             {
+              title: "Pacjent Zero",
+              date: "26.04.2020 r.",
+              content: "Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób, które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych, wyleczonych, zmarłych.",
+              slug: "pacjentzero",
+            },
+            {
+              title: "Dwa filmy",
+              date: "10.01.2020 r.",
+              content: "Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli 'Dwóch papieży', wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych 'The Lighthouse'.",
+              slug: "dwafilmy",
+            },
+            {
+              title: "Nieświadomość indywidualna i zbiorowa",
+              date: "17.11.2019 r.",
+              content: "Wystąpienie na kongresie 'Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.",
+              slug: "nieswiadomosc",
+            },
+            {
+              title: "Golem: archetypowy mit czy miejska legenda?",
+              date: "10.06.2018 r.",
+              content: "„Polscy Żydzi po odmówieniu pewnych modlitw i odbyciu postów robią ludzką postać z gliny albo mułu, a gdy wypowiedzą cudowne szemhamforas [imię Boga], to człowiek ów musi ożyć. Nazywają go golem i wykorzystują jako posługacza do wszelkich prac domowych, tyle że nie wolno mu wychodzić z domu.",
+              slug: "golem",
+            },
+            {
+              title: "Podążanie",
+              date: "18.01.2018 r.",
+              content: "Podążanie za pacjentem. Za jego/jej myślą, uczuciem, punktem widzenia.",
+              slug: "podazanie",
+            },
+            {
+              title: "Mistrz odzywa się tylko raz",
+              date: "08.06.2017 r.",
+              content: "Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar. Powiedziałem, że zakupiłem ją dawno temu w pewnym mieście. Pacjentka słysząc moją odpowiedź, wydała się zaskoczona. 'Czy Pan to robi specjalnie ?' – spytała.",
+              slug: "mistrz",
+            },
+            {
+              title: "Sny a nieświadomy sen",
+              date: "07.05.2017 r.",
+              content: "W rozdziale 'Podróże' we książce 'Wspomnienia, sny, myśli' C.G. Jung przytoczył sen, który miał podczas podróży do Tunisu.",
+              slug: "sny",
+            },  
+            {
+              title: "Co oznacza Lechaim ?",
+              date: "16.03.2017 r.",
+              content: "‘Lechaim !' To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie 'Za życie!'.",
+              slug: "lechaim",
+            },
+        ].map(({ slug, title, date, content }, index) => (
+            <CarouselItem key={index} className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
 
-          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-            <div className="hover:underline decoration-from-font dark:hover:decoration-gray-500 dark:hover:bg-gray-800   border-0 p-4">
-              <div>
-                <h1 className="font-semibold">Nieświadomość indywidualna i zbiorowa</h1>
-                <p className="text-sm text-gray-500">17.11.2019 r.</p>
-              </div>
-              <div className="mt-5">
-              <p className="text-gray-500">
-                Wystąpienie na kongresie "Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.
-                </p>
-              </div>
-            </div>
-          </CarouselItem>
-
-          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-            <div className="hover:underline decoration-from-font dark:hover:decoration-gray-500 dark:hover:bg-gray-800   border-0 p-4">
-                <div>
-                  <h1 className="font-semibold">Golem: archetypowy mit czy miejska legenda?</h1>
-                  <p className="text-sm text-gray-500">10.06.2018 r.</p>
+                <div className="hover:underline decoration-from-font dark:hover:decoration-gray-500 dark:hover:bg-gray-800 border-0 p-4">
+                <Link href={`/blog/${slug}`}>
+                    <div>
+                        <h1 className="font-semibold">{title}</h1>
+                        <p className="text-sm text-gray-500">{date}</p>
+                    </div>
+                    <div className="mt-5">
+                        <p className="text-gray-500">{content}</p>
+                    </div>
+                    </Link>
                 </div>
-                <div className="mt-5">
-                <p className="text-gray-500">
-                „Polscy Żydzi po odmówieniu pewnych modlitw i odbyciu postów robią ludzką postać z gliny albo mułu, a gdy wypowiedzą cudowne szemhamforas [imię Boga],
-                to człowiek ów musi ożyć. Nazywają go golem i wykorzystują jako posługacza do wszelkich prac domowych, tyle że nie wolno mu wychodzić z domu.
-                </p>
-                </div>
-              </div>        
-          </CarouselItem>
+              
+            </CarouselItem>
+                  ))}
 
-          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-            <div className="hover:underline decoration-from-font dark:hover:decoration-gray-500 dark:hover:bg-gray-800   border-0 p-4">
-                <div>
-                  <h1 className="font-semibold">Mistrz odzywa się tylko raz</h1>
-                  <p className="text-sm text-gray-500">08.06.2017 r.</p>
-                </div>
-                <div className="mt-5">
-                <p className="text-gray-500">
-                Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar. 
-                Powiedziałem, że zakupiłem ją dawno temu w pewnym mieście. Pacjentka słysząc moją odpowiedź, wydała się zaskoczona.
-                „Czy Pan to robi specjalnie ?" – spytała.
-                </p>
-                </div>
-              </div>        
-          </CarouselItem>
+            </CarouselContent>
+          </Carousel>
 
-          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-
-            <div className="hover:underline decoration-from-font dark:hover:decoration-gray-500 dark:hover:bg-gray-800  border-0 p-4">
-                <div>
-                  <h1 className="font-semibold">Sny a nieświadomy sen</h1>
-                  <p className="text-sm text-gray-500">07.05.2017 r.</p>
-                </div>
-                <div className="mt-5">
-                <p className="text-gray-500">
-                    W rozdziale „Podróże" we książce „Wspomnienia, sny, myśli" C.G. Jung
-                  przytoczył sen, który miał podczas podróży do Tunisu.</p>
-                </div>
-              </div>  
-          </CarouselItem>
-
-
-          <CarouselItem className="basis 1/1 sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-          
-          <div className="hover:underline decoration-from-font dark:hover:decoration-gray-500 dark:hover:bg-gray-800   border-0 p-4">
-                <div>
-                  <h1 className="font-semibold">Co oznacza Lechaim ?</h1>
-                  <p className="text-sm text-gray-500">16.03.2017 r.</p>
-                </div>
-                <div className="mt-5">
-                <p className="text-gray-500">
-                  „Lechaim !" To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie „Za życie!".</p>
-                </div>
-              </div> 
-          </CarouselItem>
-
-
-
-        </CarouselContent>
-    </Carousel>
     
     </div>
 
