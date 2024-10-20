@@ -3,8 +3,8 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar"
 import Link from "next/link";
 export default function Navbar() {
     return (
-       <div className="sticky top-0 z-10 h-max max-w-full flex  bg-orange-50 dark:bg-orange-600 dark:text-stone-50">
-            <div className=" inline-flex items-center justify-start space-x-4 mx-auto p-2">
+       <div className="sticky top-0 z-10 h-max max-w-full flex bg-slate-50 dark:bg-gray-800">
+            <div className="inline-flex items-center justify-start space-x-4 mx-auto p-2">
                 
                 <Avatar>
                 <Link href="/">
