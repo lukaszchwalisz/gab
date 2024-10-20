@@ -60,6 +60,7 @@ export default function Blog() {
               key={post.title}
               className="hover:underline decoration-from-font dark:hover:decoration-gray-500 dark:hover:bg-gray-800 border-0 p-4"
             >
+              <Link href={`/blog/${post.slug}`}>
               <div>
                 <h1 className="font-semibold">{post.title}</h1>
                 <p className="text-sm text-gray-500">{post.date}</p>
@@ -67,7 +68,8 @@ export default function Blog() {
               <div className="mt-5">
                 <p className="text-gray-500">{post.content}</p>
               </div>
-            </div>
+              </Link>
+            </div>       
           ))}
         </div>
       </div>
@@ -80,35 +82,48 @@ const blogPosts = [
     title: "Pacjent Zero",
     date: "26.04.2020 r.",
     content: "Rok 2020. Człowiek w masce idący uliczkami miast, trzymający się w odpowiedniej odległości od innych osób, które także mają zakryte twarze. Każdy dzień niesie za sobą informacje o nowych zakażonych, wyleczonych, zmarłych.",
+    slug: "pacjentzero",
   },
   {
     title: "Dwa filmy",
     date: "10.01.2020 r.",
     content: "Pod koniec 2019 roku miały miejsce premiery dwóch filmów, bardzo ciekawych, w pewien sposób podobnych do siebie i bardzo różnych zarazem. Mam na myśli 'Dwóch papieży', wyprodukowany przez Netflix oraz wyświetlany w kinach studyjnych 'The Lighthouse'.",
+    slug: "dwafilmy",
   },
   {
     title: "Nieświadomość indywidualna i zbiorowa",
     date: "17.11.2019 r.",
     content: "Wystąpienie na kongresie 'Obrazy nieświadomości – jungowskie metody pracy z psychiką 6.10.2019 r.",
+    slug: "nieswiadomosc",
   },
   {
     title: "Golem: archetypowy mit czy miejska legenda?",
     date: "10.06.2018 r.",
     content: "„Polscy Żydzi po odmówieniu pewnych modlitw i odbyciu postów robią ludzką postać z gliny albo mułu, a gdy wypowiedzą cudowne szemhamforas [imię Boga], to człowiek ów musi ożyć. Nazywają go golem i wykorzystują jako posługacza do wszelkich prac domowych, tyle że nie wolno mu wychodzić z domu.",
+    slug: "golem",
+  },
+  {
+    title: "Podążanie",
+    date: "18.01.2018 r.",
+    content: "Podążanie za pacjentem. Za jego/jej myślą, uczuciem, punktem widzenia.",
+    slug: "podazanie",
   },
   {
     title: "Mistrz odzywa się tylko raz",
     date: "08.06.2017 r.",
     content: "Pod koniec sesji pacjentka spytała mnie o figurkę, która znajdowała się w moim gabinecie. Figurka przedstawiała słonia, który nosił na sobie zegar. Powiedziałem, że zakupiłem ją dawno temu w pewnym mieście. Pacjentka słysząc moją odpowiedź, wydała się zaskoczona. 'Czy Pan to robi specjalnie ?' – spytała.",
+    slug: "mistrz",
   },
   {
     title: "Sny a nieświadomy sen",
     date: "07.05.2017 r.",
     content: "W rozdziale 'Podróże' we książce 'Wspomnienia, sny, myśli' C.G. Jung przytoczył sen, który miał podczas podróży do Tunisu.",
-  },
+    slug: "sny",
+  },  
   {
     title: "Co oznacza Lechaim ?",
     date: "16.03.2017 r.",
     content: "‘Lechaim !' To tradycyjny toast przed piciem wina czy innego napoju, oznaczający dosłownie 'Za życie!'.",
+    slug: "lechaim",
   },
 ];
