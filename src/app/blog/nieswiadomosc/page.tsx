@@ -76,8 +76,8 @@ export default function Nieswiadomosc() {
            <div className="prose prose-base text-justify m-2">
   
                 <div className="p-4 mb-4">
-                  <h1 className="text-center font-semibold">Nieświadomość indywidualna i zbiorowa</h1>
-                  <p className="text-center text-sm text-gray-500">wpis z 17.11.2019 r.</p>
+                  <h1 className="text-center font-semibold dark:text-white">Nieświadomość indywidualna i zbiorowa</h1>
+                  <p className="text-center text-sm text-gray-500 dark:text-gray-300">wpis z 17.11.2019 r.</p>
                 </div>
           
                   <p className="mb-4 text-gray-800 dark:text-white"> Dzień dobry. W godzinach popołudniowych zaprezentujemy Państwu warsztat „Symbolic

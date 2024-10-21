@@ -77,8 +77,8 @@ export default function DwaFilmy() {
          <div className="prose prose-base text-justify m-2">
 
               <div className="p-4 mb-4">
-                <h1 className="text-center font-semibold">Pacjent Zero</h1>
-                <p className="text-center text-sm text-gray-500">wpis z 26.04.2020 r.</p>
+                <h1 className="text-center font-semibold dark:text-white">Pacjent Zero</h1>
+                <p className="text-center text-sm text-gray-500 dark:text-gray-300">wpis z 26.04.2020 r.</p>
               </div>
 
                   <p className="mb-4 text-gray-800 dark:text-white">

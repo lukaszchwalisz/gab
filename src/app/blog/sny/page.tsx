@@ -78,8 +78,8 @@ export default function Sny() {
             <div className="prose prose-base text-justify m-2">
   
                 <div className="p-4 mb-4">
-                  <h1 className="text-center font-semibold">Sny z nieświadomy sens</h1>
-                  <p className="text-center text-sm text-gray-500">07.05.2017 r.</p>
+                  <h1 className="text-center font-semibold dark:text-white">Sny z nieświadomy sens</h1>
+                  <p className="text-center text-sm text-gray-500 dark:text-gray-300">07.05.2017 r.</p>
                 </div>
           
 

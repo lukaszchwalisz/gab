@@ -78,8 +78,8 @@ export default function DwaFilmy() {
         
 
               <div className="p-4 m-4">
-                <h1 className="text-center font-semibold">Dwa filmy</h1>
-                <p className="text-center text-sm text-gray-500">wpis z 10.01.2020 r.</p>
+                <h1 className="text-center font-semibold dark:text-white">Dwa filmy</h1>
+                <p className="text-center text-sm text-gray-500 dark:text-gray-300">wpis z 10.01.2020 r.</p>
               </div>
                 
                 

@@ -77,8 +77,8 @@ export default function Golem() {
            <div className="prose prose-base text-justify m-2">
   
                 <div className="p-4 mb-4">
-                  <h1 className="text-center font-semibold">Golem: archetypowy mit czy miejska legenda ?</h1>
-                  <p className="text-center text-sm text-gray-500">wpis z 10.06.2018 r.</p>
+                  <h1 className="text-center font-semibold dark:text-white">Golem: archetypowy mit czy miejska legenda ?</h1>
+                  <p className="text-center text-sm text-gray-500 dark:text-gray-300">wpis z 10.06.2018 r.</p>
                 </div>
           
                 <p className="italic mb-4 text-gray-800 dark:text-white">„Polscy Żydzi po odmówieniu pewnych modlitw i odbyciu postów robią ludzką postać z gliny albo mułu, a gdy wypowiedzą cudowne szemhamforas [imię Boga], to człowiek ów musi ożyć. Nazywają go golem i wykorzystują jako posługacza do wszelkich prac domowych, tyle że nie wolno mu wychodzić z domu.</p>

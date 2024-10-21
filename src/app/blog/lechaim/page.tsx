@@ -78,8 +78,8 @@ export default function Lechaim() {
           <div className="prose prose-base text-justify m-2">
   
                 <div className="p-4 mb-4">
-                  <h1 className="text-center font-semibold">Co oznacza Lechaim ?</h1>
-                  <p className="text-center text-sm text-gray-500">16.03.2017 r.</p>
+                  <h1 className="text-center font-semibold dark:text-white">Co oznacza Lechaim ?</h1>
+                  <p className="text-center text-sm text-gray-500 dark:text-gray-300">16.03.2017 r.</p>
                 </div>
           
 
