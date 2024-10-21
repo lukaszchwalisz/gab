@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/layout/theme-provider"
 import Navbar from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-const inter = Inter({ subsets: ["latin"] });
+const fonts = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Gabinet Łukasz Chwalisz",
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="">
-      <body className={inter.className}>
+      <body className={fonts.className}>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
