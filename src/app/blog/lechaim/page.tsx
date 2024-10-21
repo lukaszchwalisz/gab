@@ -65,28 +65,17 @@ export default function Lechaim() {
         </Breadcrumb>
         
 
-        <div className="container lg:flex lg:space-x-4 m-4 p-4 text-justify">
-
-          <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
-        
-
-          <div className="p-4 mb-4 space-x-4">
-          
             <Image
               src="/obr/lechaim.avif"
               alt="Gra z symbolami"
-              className="rounded-md shadow-md"
-              width={500}
-              height={100}
+              className="rounded-md shadow-md m-6"
+              width={600}
+              height={1}
               priority
             />
 
            
-          </div>
-          
-
-          
-            <div>
+          <div className="prose prose-base text-justify m-2">
   
                 <div className="p-4 mb-4">
                   <h1 className="text-center font-semibold">Co oznacza Lechaim ?</h1>
@@ -132,10 +121,9 @@ export default function Lechaim() {
              
               </div>
 
-              </div>
+       
 
-            </div>
-
+        
       </main>
 
     )

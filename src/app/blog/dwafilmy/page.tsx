@@ -64,29 +64,20 @@ export default function DwaFilmy() {
       </Breadcrumb>
       
 
-      <div className="container lg:flex lg:space-x-4 m-4 p-4 text-justify">
-
-        <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
-      
-
-        <div className="p-4 mb-4 space-x-4">
-        
           <Image
             src="/obr/popeshouse.png"
             alt="Dwa filmy."
-            className="rounded-md shadow-md"
-            width={500}
-            height={100}
+            className="rounded-md shadow-md m-6"
+            width={600}
+            height={1}
             priority
           />
          
-        </div>
+        
+        <div className="prose prose-base text-justify m-2">
         
 
-        
-          <div>
-
-              <div className="p-4 mb-4">
+              <div className="p-4 m-4">
                 <h1 className="text-center font-semibold">Dwa filmy</h1>
                 <p className="text-center text-sm text-gray-500">wpis z 10.01.2020 r.</p>
               </div>
@@ -222,11 +213,11 @@ export default function DwaFilmy() {
               <iframe className="mb-4" width="100%" height="315" src="https://www.youtube.com/embed/3e2_6U5fD6Q"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
               <iframe className="mb-4" width="100%" height="315" src="https://www.youtube.com/embed/Hyag7lR8CPA"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>  
            
-            </div>
-
-            </div>
-
           </div>
+
+         
+
+     
 
     </main>
 

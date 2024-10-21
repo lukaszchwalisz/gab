@@ -60,37 +60,23 @@ export default function SklepZMaskami() {
             
             </BreadcrumbItem>
 
-
-
-
             </BreadcrumbList>
 
         </Breadcrumb>
         
 
-        <div className="container lg:flex lg:space-x-4 m-4 p-4 text-justify">
 
-          <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
-        
-
-          <div className="p-4 mb-4 space-x-4">
-          
-            <Image
+        <Image
               src="/obr/maska.png"
               alt="Gra z symbolami"
-              className="rounded-md shadow-md"
-              width={500}
-              height={100}
+              className="rounded-md shadow-md m-6"
+              width={600}
+              height={1}
               priority
             />
-            
-           
-          </div>
-          
 
-          
-          <div className="">
-  
+        <div className="prose prose-base text-justify m-2">
+
             <h1 className="p-2 mb-4 text-3xl font-bold text-center text-gray-800 dark:text-white">Sklep z maskami</h1>
             <p className="mb-4 text-gray-800 dark:text-white">
             Gra negocjacyjna rozgrywająca się w przykładowym sklepie z maskami. Zgodnie ze scenariuszem, pomimo początkowego wzrostu i rozwoju,
@@ -119,19 +105,10 @@ export default function SklepZMaskami() {
             <li>kandydaci na negocjatorów i mediatorów, którzy chcieliby poćwiczyć na przykładzie swoją teoretyczną wiedzę</li>
           </ul>
           
-          
-          
+
           
           </div>
-        
-         
-                    
-        
-        
-        </div>
-
-      </div>
-
+     
       </main>
 
     )

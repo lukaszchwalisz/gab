@@ -56,40 +56,24 @@ export default function GraZSymbolami() {
 
             <BreadcrumbItem>
             
-             <BreadcrumbPage>Gra w symbole</BreadcrumbPage>
+             <BreadcrumbPage>Gra w symbolami</BreadcrumbPage>
             
             </BreadcrumbItem>
-
-
-
 
             </BreadcrumbList>
 
         </Breadcrumb>
-        
 
-        <div className="container lg:flex lg:space-x-4 m-4 p-4 text-justify">
-
-          <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
-        
-
-          <div className="p-4 mb-4 space-x-4">
-          
-            <Image
+        <Image
               src="/obr/sc3.jpg"
               alt="Gra z symbolami"
-              className="rounded-md shadow-md"
-              width={500}
-              height={100}
+              className="rounded-md shadow-md m-6"
+              width={600}
+              height={1}
               priority
             />
-            
-           
-          </div>
-          
 
-          
-          <div className="">
+        <div className="prose prose-base text-justify m-2">
   
             <h1 className="p-2 mb-4 text-3xl font-bold text-center text-gray-800 dark:text-white">Gra z symbolami</h1>
             <p className="mb-4 text-gray-800 dark:text-white">
@@ -118,13 +102,6 @@ export default function GraZSymbolami() {
           
           </div>
         
-         
-                    
-        
-        
-        </div>
-
-      </div>
 
       </main>
 

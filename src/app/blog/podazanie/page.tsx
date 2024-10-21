@@ -65,27 +65,16 @@ export default function Podazanie() {
       </Breadcrumb>
       
 
-      <div className="container lg:flex lg:space-x-4 m-4 p-4 text-justify">
-
-        <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
-      
-
-        <div className="p-4 mb-4 space-x-4">
-        
           <Image
             src="/obr/trampki.jpeg"
             alt="Podążanie."
-            className="rounded-md shadow-md"
-            width={500}
-            height={100}
+            className="rounded-md shadow-md m-6"
+            width={600}
+            height={1}
             priority
           />
          
-        </div>
-        
-
-        
-          <div>
+         <div className="prose prose-base text-justify m-2">
 
               <div className="p-4 mb-4">
                 <h1 className="text-center font-semibold">Podążanie</h1>
@@ -137,10 +126,6 @@ export default function Podazanie() {
                   <p className="mb-4 text-gray-800 dark:text-white">Podążać za pacjentem.</p>
                 
             </div>
-
-            </div>
-
-          </div>
 
     </main>
 

@@ -65,27 +65,16 @@ export default function DwaFilmy() {
       </Breadcrumb>
       
 
-      <div className="container lg:flex lg:space-x-4 m-4 p-4 text-justify">
-
-        <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
-      
-
-        <div className="p-4 mb-4 space-x-4">
-        
           <Image
             src="/obr/pacjentzero.jpg"
             alt="Pacjent Zero."
-            className="rounded-md shadow-md"
-            width={500}
-            height={100}
+            className="rounded-md shadow-md m-6"
+            width={600}
+            height={1}
             priority
           />
          
-        </div>
-        
-
-        
-          <div>
+         <div className="prose prose-base text-justify m-2">
 
               <div className="p-4 mb-4">
                 <h1 className="text-center font-semibold">Pacjent Zero</h1>
@@ -192,14 +181,10 @@ export default function DwaFilmy() {
                   Podzieliłem się kilkoma swoimi refleksjami, które pojawiły mi się przez ostanie dwa miesiące. Ten czas uczy pokory,
                   wielkiej pokory i refleksji nad tym jak bezbronny jest człowiek wobec nieznanego zagrożenia, ile wysiłku kosztuje
                   zachowanie zdrowego rozsądku i dobrego nastroju, jak mało wciąż wie o sobie, jak i świecie. Postawione już pytania
-                  pozostawiam bez odpowiedzi, mając refleksyjną uważność na to, że pojawią się kolejne, równie ważne.</p>
-                 
+                  pozostawiam bez odpowiedzi, mając refleksyjną uważność na to, że pojawią się kolejne, równie ważne.</p>          
                 
             </div>
 
-            </div>
-
-          </div>
 
     </main>
 

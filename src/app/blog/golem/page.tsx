@@ -65,27 +65,16 @@ export default function Golem() {
         </Breadcrumb>
         
 
-        <div className="container lg:flex lg:space-x-4 m-4 p-4 text-justify">
-
-          <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
-        
-
-          <div className="p-4 mb-4 space-x-4">
-          
             <Image
               src="/obr/golem1.jpg"
               alt="Golem."
-              className="rounded-md shadow-md"
-              width={500}
-              height={100}
+              className="rounded-md shadow-md m-6"
+              width={600}
+              height={1}
               priority
             />
            
-          </div>
-          
-
-          
-            <div>
+           <div className="prose prose-base text-justify m-2">
   
                 <div className="p-4 mb-4">
                   <h1 className="text-center font-semibold">Golem: archetypowy mit czy miejska legenda ?</h1>
@@ -175,11 +164,11 @@ export default function Golem() {
                 </ul>
                           
              
-              </div>
-
-              </div>
+              
 
             </div>
+
+          
 
       </main>
     )

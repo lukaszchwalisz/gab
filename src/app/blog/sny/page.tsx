@@ -65,28 +65,17 @@ export default function Sny() {
         </Breadcrumb>
         
 
-        <div className="container lg:flex lg:space-x-4 m-4 p-4 text-justify">
-
-          <div className="grid gap-4 mt-auto justify-center m-4 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
-        
-
-          <div className="p-4 mb-4 space-x-4">
-          
             <Image
               src="/obr/sahara.jpg"
               alt="Gra z symbolami"
-              className="rounded-md shadow-md"
-              width={500}
-              height={100}
+              className="rounded-md shadow-md mt-6"
+              width={600}
+              height={1}
               priority
             />
             
            
-          </div>
-          
-
-          
-          <div>
+            <div className="prose prose-base text-justify m-2">
   
                 <div className="p-4 mb-4">
                   <h1 className="text-center font-semibold">Sny z nieświadomy sens</h1>
@@ -163,10 +152,6 @@ export default function Sny() {
                   uprzedzeniami formie.</p>
              
               </div>
-
-              </div>
-
-            </div>
 
       </main>
 
