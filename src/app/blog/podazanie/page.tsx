@@ -115,9 +115,9 @@ export default function Podazanie() {
                   Musimy czasem zareagować, aby odnaleźć kolejną warstwę, podtekst, symptom.
                   Przy tym nauczyć pacjenta, aby sam umiał się zatrzymać i był refleksyjny.</p>
                   
-                  <em>Ale bez przesady. Bo co jak pacjent, kiedyś powie analitykowi jak ma daną</em>
-                  <em>rzecz zinterpretować. Będzie się domagał, takiej a nie innej reakcji. </em>
-                  <em>Tak też być może.</em>
+                  <p className="italic text-sm mb-4 text-gray-800 dark:text-white">Ale bez przesady. Bo co jak pacjent, kiedyś powie analitykowi jak ma daną
+                  rzecz zinterpretować. Będzie się domagał, takiej a nie innej reakcji.
+                  Tak też być może.</p>
                   
                   <p className="mb-4 text-gray-800 dark:text-white">Każda droga, każda wyznaczony sobie kierunek pracy prowadzi to swojego
                   niedostrzegalnego na początku końca. Kiedy należy zatrzymać się, zmienić,
